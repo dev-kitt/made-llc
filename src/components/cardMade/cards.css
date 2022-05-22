@@ -1,0 +1,7 @@
+.container.card__container {
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+}

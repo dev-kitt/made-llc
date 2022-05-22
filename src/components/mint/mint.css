@@ -1,0 +1,27 @@
+
+
+.mint__container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 15%;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 1200px) {
+    .mint {
+        width: var(--container-width-md);
+        padding-bottom: 50rem;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
+@media screen and (max-width: 600px) {
+    .mint {
+        width: var(--container-width-sm);
+        padding-bottom: 25rem;
+    }
+
+    Text {
+        font-size: 12px; 
+    }
+}
