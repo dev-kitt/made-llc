@@ -1,6 +1,6 @@
-footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
+footer > div {
+    display: absolute;
+    padding: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
@@ -8,6 +8,10 @@ footer {
 
 footer a {
     color: var(--color-bg);
+}
+
+footer a:hover {
+    color: var(--color-neon);
 }
 
 .footer__logo {
@@ -34,7 +38,7 @@ footer a {
 
 .footer__socials a {
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-purp);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
@@ -43,12 +47,12 @@ footer a {
 
 .footer__socials a:hover {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-neon);
+    border-color: var(--color-neon);
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color: var(--color-bg);
 }
 

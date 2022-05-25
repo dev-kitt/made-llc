@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { CardSizer } from "../cardSizer"
-
-import madeTM from "../../assets/images/made.png"
+import madeTM from "../../assets/made.png"
 
 const DetailsContainer = styled.div`
   width: 100%;

@@ -1,5 +1,5 @@
 import React from "react"
-import Toggle from "../Toggle/Toggle"
+import Toggle from "../toggle/Toggle"
 import { Box, Button } from '@chakra-ui/react'
 import "./navbar.css"
 
@@ -16,7 +16,7 @@ const navbar = ({ accounts, setAccounts }) => {
     }
 
     return (
-        <div className="n-wrapper" id="Navbar">
+        <div className="n-wrapper" id="home">
             {/* left */}
             <div id="top" className="n-left">
                 <h1 className="n-name">STANDARDmade</h1>

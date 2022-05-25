@@ -4,6 +4,16 @@
     gap: 15%;
 }
 
+.about__banner {
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+}
+
+.about__banner img {
+    transform: scale(0.8);
+    border-radius: 8rem;
+}
+
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -39,7 +49,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -66,12 +76,15 @@
 }
 
 .about__content p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1007px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -88,7 +101,7 @@
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 641px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;

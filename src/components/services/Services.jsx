@@ -1,44 +1,25 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import { AiFillStar } from 'react-icons/ai'
+import { GiHealthNormal } from 'react-icons/gi'
+import { MdHealthAndSafety } from 'react-icons/md'
+import pros from '../../assets/service-icon.png'
 
 const Service = () => {
   return (
     <section id='services'>
-      <h5>Inspired by</h5>
+      <div className="service__pros">
+        <div className='service__pros-image'>
+            <img src={pros} alt="mint-nft" />
+        </div>
+      </div>
+      
+      <h5>[ inspired by ]</h5>
       <h2>Service Professionals</h2>
+      <br></br>
+      <br></br>
 
       <div className="container services__container">
-        <article className="service">
-          <div className="service__head">
-            <h3>Military & Veterans</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
-            </li>
-            <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
-            </li>
-            <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
-            </li>
-            <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
-            </li>
-            <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
-            </li>
-          </ul>
-        </article>
-        {/* END OF UI/UX */}
-
         <article className="service">
           <div className="service__head">
             <h3>Healthcare</h3>
@@ -46,28 +27,58 @@ const Service = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <GiHealthNormal className='service__list-icon' />
+              <p>Doctors</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <GiHealthNormal className='service__list-icon' />
+              <p>Nurses</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <GiHealthNormal className='service__list-icon' />
+              <p>Technicians</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <GiHealthNormal className='service__list-icon' />
+              <p>Veterinarians</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <GiHealthNormal className='service__list-icon' />
+              <p>Biomedical Sciences</p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF UI/UX */}
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Military & Veterans</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <AiFillStar className='service__list-icon' />
+              <p>Air Force</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <AiFillStar className='service__list-icon' />
+              <p>Army</p>
+            </li>
+            <li>
+              <AiFillStar className='service__list-icon' />
+              <p>Coast Guard</p>
+            </li>
+            <li>
+              <AiFillStar className='service__list-icon' />
+              <p>Marine Corps</p>
+            </li>
+            <li>
+              <AiFillStar className='service__list-icon' />
+              <p>Navy</p>
+            </li>
+            <li>
+              <AiFillStar className='service__list-icon' />
+              <p>Space Force</p>
             </li>
           </ul>
         </article>
@@ -80,24 +91,24 @@ const Service = () => {
 
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Fire Fighters</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Paramedics</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Law Enforcement</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Disaster Relief</p>
             </li>
             <li>
-              <BiCheck className='service__icon-list' />
-              <p>Taco ipsum, beef chicken steak pork tacos erryday.</p>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Humanitarian Aid</p>
             </li>
           </ul>
         </article>

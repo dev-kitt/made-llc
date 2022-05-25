@@ -1,8 +1,8 @@
 import { motion, useMotionValue, useTransform } from "framer-motion"
+import './cards.css'
 import React from "react"
 import styled from "styled-components"
-
-import MadeImg from "../../assets/images/[NFTmade].png"
+import MadeImg from "../../assets/made-nft.png"
 import { CardDetails } from "./CardDetails"
 
 const CardWrapper = styled.div`
@@ -76,7 +76,7 @@ const NftWrapper = styled.div`
 const Card = styled(motion.div)`
   width: auto;
   height: 190px;
-  z-index: 99;
+  z-index: 69;
   user-select: none;
   margin-right: 3em;
   margin-top: 4em;
@@ -89,7 +89,7 @@ const Card = styled(motion.div)`
   }
 `
 
-export function CardMade(props) {
+export function CardNFT(props) {
   const x = useMotionValue(0)
   const y = useMotionValue(0)
   const rotateX = useTransform(y, [-100, 100], [30, -30])

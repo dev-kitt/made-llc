@@ -4,12 +4,17 @@
     display: grid;
     grid-template-rows: 50% 50%;
     gap: 15%;
+    text-align: center;
+}
+
+.mint__image {
+    margin: 0 auto 1rem;
+    padding-left: 2rem;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 1200px) {
     .mint {
-        width: var(--container-width-md);
         padding-bottom: 50rem;
     }
 }
@@ -17,11 +22,10 @@
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 600px) {
     .mint {
-        width: var(--container-width-sm);
         padding-bottom: 25rem;
     }
 
-    Text {
-        font-size: 12px; 
+    .mint__image {
+        padding-top: 2rem;
     }
 }

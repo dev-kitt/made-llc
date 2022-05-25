@@ -20,6 +20,10 @@
     user-select: none;
 }
 
+.cleint__name {
+    color: var(--color-neon);
+}
+
 .client__review {
     color: var(--color-light);
     font-weight: 300;
@@ -30,7 +34,6 @@
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-primary);
-
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
@@ -42,11 +45,5 @@
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 600px) {
-    .container.team__container {
-        width: var(--container-width-sm);
-    }
 
-    .client__review {
-        width: var(--container-width-sm);
-    }
 }

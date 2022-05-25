@@ -1,7 +1,66 @@
-.container.card__container {
-    position: flex;
-    align-items: center;
+.card__container {
+    position: relative;
+    margin-bottom: 18rem;
+    margin-top: 12rem;
+}
+
+.card__container-parallax {
+    position: fixed;
+    z-index: 0;
+}
+
+.card__container-nft {
+    margin-top: 4rem;
+    z-index: 1;
+}
+
+/* ========== CTA ========== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
     justify-content: center;
-    padding-bottom: 15rem;
-    padding-top: 5rem;
+}
+
+/* ========== HEADER SOCIALS ========== */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ========== SCROLL DOWN ========== */
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    top: 15rem;
+}
+
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1008px) { 
+
+}
+
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 1007px) {
+
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
+@media screen and (max-width: 641px) {
+
 }

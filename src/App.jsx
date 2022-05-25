@@ -2,12 +2,10 @@ import "./App.css"
 import Navbar from './components/navbar/Navbar'
 import Nav from './components/nav/Nav'
 import Header from './components/header/Header'
-import Card1 from './components/cardMade/Card1'
-import Mint from './components/mint/Mint'
+import CardMain from './components/cardMade/CardMain'
 import About from './components/about/About'
-import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
+import Collections from './components/collections/Collections'
 import Team from './components/team/Team'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
@@ -29,13 +27,11 @@ function App() {
     > 
       <Navbar accounts={accounts} setAccounts={setAccounts} />
       <Nav />
-      <Header accounts={accounts} setAccounts={setAccounts}/>
-      <Card1 />
-      <Mint accounts={accounts} setAccounts={setAccounts} />
+      <CardMain />
+      <Header accounts={accounts} setAccounts={setAccounts} />
       <About />
-      <Experience />
       <Services />
-      <Portfolio />
+      <Collections />
       <Team />
       <Contact />
       <Footer />

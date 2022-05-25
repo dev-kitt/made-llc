@@ -1,12 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import './header.css'
-import CTA from './CTA'
+import HeaderMinter from './HeaderMinter'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
+  const [accounts, setAccounts] = useState([])
 
   return (
-    <header id="home">
+    <header id="mint">
       <div className="container header__container">    
         <h5 className="text-light">NFTs</h5> 
         <h1>STANDARDmade</h1>
@@ -15,7 +16,7 @@ const Header = () => {
           <br></br>
           Now on OpenSea [ETH @ 0.0420 | MATIC @ 420]
         </h5>
-        <CTA />
+        <HeaderMinter accounts={accounts} setAccounts={setAccounts} />
         <HeaderSocials />
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>

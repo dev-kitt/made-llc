@@ -1,6 +1,6 @@
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {MdOutlineMarkEmailUnread} from 'react-icons/md'
+import {BsGithub} from 'react-icons/bs'
 import {FiPhoneCall} from 'react-icons/fi'
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -22,8 +22,10 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>[ get in touch ]</h5>
+      <h2>Contact</h2>
+      <br></br>
+      <br></br>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -34,15 +36,15 @@ const Contact = () => {
             <a href="mailto:kit@made.llc" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
           <artice className="contact__option">
-            <MdOutlineMarkEmailUnread className='contact__option-icon' />
-            <h4>Backup Email</h4>
-            <h5>kit@standardmade.co</h5>
-            <a href="mailto:kit@standardmade.co" rel="noreferrer" target="_blank">Send a message</a>
+            <BsGithub className='contact__option-icon' />
+            <h4>Github</h4>
+            <h5>@standard-made</h5>
+            <a href="https://github.com/standard-made" rel="noreferrer" target="_blank">Check our Repos</a>
           </artice>
           <artice className="contact__option">
             <FiPhoneCall className='contact__option-icon' />
             <h4>Mobile</h4>
-            <h5>+420-F**-*OFF</h5>
+            <h5>+404-F**-*OFF</h5>
             <a href="https://api.whatsapp.com/send?phone+1404123456" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
         </div>

@@ -1,7 +1,5 @@
 header {
     height: 50vh;
-    overflow: hidden;
-    z-index: 0;
 }
 
 .header__container {
@@ -10,9 +8,9 @@ header {
     position: relative;
 }
 
-/* ========== CTA ========== */
-.cta {
-    margin-top: 2.5rem;
+/* ========== mint ========== */
+.mint {
+    padding-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -26,7 +24,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    top: 5rem;
+    top: 8rem;
 }
 
 .header__socials::after {
@@ -43,7 +41,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-    top: 13rem;
+    top: 15rem;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */

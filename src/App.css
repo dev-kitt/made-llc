@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 .App{
-  padding: 0.5rem 3.5rem;
+  padding: 0.5rem 2.5rem;
   overflow: hidden;
   color: var(--black);    
 }
@@ -29,9 +29,7 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width: 88%;
 }
 
 html {
@@ -47,12 +45,10 @@ body {
     background: var(--color-purp);
     color: var(--color-light);
     line-height:  1.7;
-
 }
 
-/* ========== GENERAL STYLES ========== */
 .container {
-    width: var(--container-width-lg);
+    width: var(--container-width);
     margin: 0 auto;
 }
 
@@ -61,16 +57,20 @@ h2,
 h3,
 h4,
 h5 {
- font-weight: 500;
+    font-weight: 500;
 }
 
 h1 {
- font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 section {
-    margin-top: 5rem;
-    padding-bottom: 5rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    height: fit-content;  
+    margin: 2rem;
+    padding: 2rem;
 }
 
 section > h2, 
@@ -81,7 +81,6 @@ section > h5 {
 
 section > h2 {
     color: var(--color-primary);
-    margin-bottom: 3rem;
 }
 
 .text-light {
@@ -104,6 +103,7 @@ a:hover {
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
+    font-weight: 690;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transtion);
@@ -126,24 +126,27 @@ img {
     object-fit: cover;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1200px) {
-    .container {
-        width: var(--container-width-md);
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1008px) { 
+    .btn {
+        padding: 0.5rem;
+        font-weight: 420;    
     }
+}
 
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 1007px) {
     section {
         margin-top: 6rem;
     }
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
+@media screen and (max-width: 641px) {
+    .btn {
+        font-size: 0.8rem;
     }
-
     section > h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
