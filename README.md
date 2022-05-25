@@ -4,7 +4,7 @@
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[STANDARDmade Web3 Minting App](https://www.made.llc) by 8Kit + :taco::taco::taco:
+[STANDARDmade Web3 Minting App](https://standardmade.io) by 8Kit + :taco::taco::taco:
 
 
 
