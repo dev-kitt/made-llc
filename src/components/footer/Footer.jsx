@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {AiOutlineTwitter} from 'react-icons/ai'
+import {FiGithub} from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
         </ul>
 
         <div className="footer__socials">
-          <a href="https://twitter.com" rel="noreferrer" target="_blank"><AiOutlineTwitter /></a>
+          <a href="https://github.com/standard-made/devops" target="_blank" rel="noopener noreferrer"><FiGithub /></a>
         </div>
 
         <div className="footer__copyright">

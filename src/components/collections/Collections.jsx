@@ -13,58 +13,58 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'made - #001',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'WEBSITE-SELECTOR.bat',
+    openSee: '../../bat/WEBSITE-SELECTOR.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/HUDSON_WEBSITE_SELECTOR.bat'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'made - #002',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'MR-ROBOT-PC-CLEAN.bat',
+    openSee: '../../bat/MR-ROBOT-PC-CLEAN.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/MR.ROBOT%20PC-CLEAN.bat'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'made - #003',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'PASSWORD-GENERATOR.bat',
+    openSee: '../../bat/PASSWORD-GENERATOR.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/PASSWORD%20GENERATOR.bat'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'made - #004',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'TIC-TAC-TOE.bat',
+    openSee: '../../bat/TIC-TAC-TOE.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'made - #005',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'POKEMON.bat',
+    openSee: '../../bat/POKEMON.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'made - #006',
-    openSea: 'https://opensea.io/STANDARDmade',
-    more: 'https://made.llc'
+    title: 'GUESSING-GAME.bat',
+    openSee: '../../bat/GUESSING-GAME.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat'
   }
 ]
 
 const Collections = () => {
   return (
     <section id='collections'>
-      <h5>[ buy the ]</h5>
-      <h2>Collection</h2>
+      <h5>[ extra ]</h5>
+      <h2>Collections</h2>
       <br></br>
       <br></br>
 
       <div className="container collections__container">
         {
-          data.map(({id, image, title, openSea, more}) => {
+          data.map(({id, image, title, openSee, more}) => {
             return (
               <article key={id} className='collections__item'>
               <div className='collections__item-image'>
@@ -72,8 +72,8 @@ const Collections = () => {
               </div>
               <h3>{title}</h3>
               <div className="collections__item-cta">
-                <a href={openSea} className='btn btn-primary'>Shop</a>
-                <a href={more} className='btn' rel="noreferrer" target='_blank'>Learn More</a>
+                <a href={openSee} className='btn btn-primary' download>Download</a>
+                <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
               </div>
             </article>
             )

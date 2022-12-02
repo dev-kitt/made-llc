@@ -14,37 +14,41 @@ const Service = () => {
         </div>
       </div>
       
-      <h5>[ inspired by ]</h5>
-      <h2>Service Professionals</h2>
+      <h5>[ core ]</h5>
+      <h2>Compentencies</h2>
       <br></br>
       <br></br>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Healthcare</h3>
+            <h3>Stack</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Doctors</p>
+              <p>TestComplete</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Nurses</p>
+              <p>ReadyAPI/SoapUI/Postman</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Technicians</p>
+              <p>WebDriverIO</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Veterinarians</p>
+              <p>SSMS/MongoDB</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Biomedical Sciences</p>
+              <p>Azure DevOps/Jira</p>
+            </li>
+            <li>
+              <GiHealthNormal className='service__list-icon' />
+              <p>GitHub/Git</p>
             </li>
           </ul>
         </article>
@@ -52,33 +56,33 @@ const Service = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Military & Veterans</h3>
+            <h3>Scripting</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Air Force</p>
+              <p>JavaScript</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Army</p>
+              <p>HTML/CSS</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Coast Guard</p>
+              <p>SQL/NoSQL</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Marine Corps</p>
+              <p>Bash/Shell (CLI)</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Navy</p>
+              <p>JSON/XML/YAML</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>Space Force</p>
+              <p>.NET (ASP/VB)</p>
             </li>
           </ul>
         </article>
@@ -86,29 +90,33 @@ const Service = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>First Responders</h3>
+            <h3>Models</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Fire Fighters</p>
+              <p>ISTQB/QA</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Paramedics</p>
+              <p>CI/CD</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Law Enforcement</p>
+              <p>TDD/BDD/OOP</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Disaster Relief</p>
+              <p>HA/DR</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Humanitarian Aid</p>
+              <p>SaaS/IaaS</p>
+            </li>
+            <li>
+              <MdHealthAndSafety className='service__list-icon' />
+              <p>Agile/Scrum</p>
             </li>
           </ul>
         </article>

@@ -39,12 +39,12 @@ const Contact = () => {
             <BsGithub className='contact__option-icon' />
             <h4>Github</h4>
             <h5>@standard-made</h5>
-            <a href="https://github.com/standard-made" rel="noreferrer" target="_blank">Check our Repos</a>
+            <a href="https://github.com/standard-made/devops" rel="noreferrer" target="_blank">ReadMe.md</a>
           </artice>
           <artice className="contact__option">
             <FiPhoneCall className='contact__option-icon' />
             <h4>Mobile</h4>
-            <h5>+404-F**-*OFF</h5>
+            <h5>+404-EAT-TACO</h5>
             <a href="https://api.whatsapp.com/send?phone+1404123456" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
         </div>

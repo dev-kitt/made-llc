@@ -1,16 +1,20 @@
-**<h1> STANDARDmade NFTs </h1>**
+**<h1> kITt by STANDARDmade</h1>**
 ![STANDARDmade-logo](/src/assets/standard-readme.png "STANDARDmade, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[STANDARDmade Web3 Minting App](https://standardmade.io) by 8Kit + :taco::taco::taco:
-
+[kITt:](https://standardmade.io) `keep IT testing` by STANDARDmade, LLC + :taco::taco::taco:
+- Portfolio & Playground
+  - About Me
+  - Automation Stuff
+  - Web3 Stuff
+  - DevOps Stuff
+  - :taco: Stuff
 
 
 ## <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
-If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it.
-- **8Kit:** kit@made.llc
+If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it to: **kit@made.llc** 
 
 
 
@@ -34,7 +38,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 My :taco: diary...shh, don't tell.
 
 ### <span style="color:#A6A6A6"> INSTALL </span>
-Below is an installation guide for supporting STANDARDmade NFT Minting App + 8Kit. Not really, I'm just having a li'l snack - leave me alone!
+Below is an installation guide for deploying **kITt:** by STANDARDmade, LLC. Not really, I'm just hungry!
 
 
 ``` js
@@ -47,8 +51,8 @@ function tacosToEat() {
     if(x == "") throw "empty";
     if(isNaN(x)) throw "doing math";
     x = Number(x);
-    if(x < 69) throw "too hungry";
-    if(x > 420) throw "too full";
+    if(x < 8) throw "too hungry";
+    if(x > 85) throw "too full";
   }
   catch(err) {
     message.innerHTML = "WARNING: consuming " + x + " tacos may leave you " + err;

@@ -9,12 +9,12 @@ const Header = () => {
   return (
     <header id="mint">
       <div className="container header__container">    
-        <h5 className="text-light">NFTs</h5> 
+        <h5 className="text-light">kITt: keep IT testing</h5> 
         <h1>STANDARDmade</h1>
         <h5 className="text-light">
-          Extraordinary digital collectables inspired by uniformed professionals.
+          Extraordinary Automation Engineering
           <br></br>
-          Now on OpenSea [ETH @ 0.0420 | MATIC @ 420]
+          by Keith Hudson
         </h5>
         <HeaderMinter accounts={accounts} setAccounts={setAccounts} />
         <HeaderSocials />

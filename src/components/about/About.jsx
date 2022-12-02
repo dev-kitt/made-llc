@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import llamaNFT from '../../assets/llama-nft.png'
+import kittMADE from '../../assets/kitt-made.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdDeveloperMode} from 'react-icons/md'
 import {FaRobot} from 'react-icons/fa'
@@ -13,15 +13,15 @@ const About = () => {
           <img src={banner} alt="about-nft" />
       </div>
 
-      <h5>[ our cargo ]</h5>
-      <h2>About Us</h2>
+      <h5>[ my cargo ]</h5>
+      <h2>About Me</h2>
       <br></br>
       <br></br>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={llamaNFT} alt="About" />
+            <img src={kittMADE} alt="About" />
           </div>
         </div>
 
@@ -29,46 +29,47 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <BsFillAwardFill className='about__icon'/>
-              <h5>STANDARD</h5>
-              <small>Uniquely Minted</small>
+              <h5>EXPERT</h5>
+              <small>Automation Engineering</small>
             </article>
 
             <article className='about__card'>
               <MdDeveloperMode className='about__icon'/>
-              <h5>made</h5>
-              <small>Web.3 + Layer.2</small>
+              <h5>TESTING</h5>
+              <small>Desktop/Web/Mobile/API/DB</small>
             </article>
 
             <article className='about__card'>
               <FaRobot className='about__icon'/>
-              <h5>NFTs</h5>
-              <small>Veteran Made</small>
+              <h5>kITt:</h5>
+              <small>keep IT testing</small>
             </article>
           </div>
 
           <p>
-          Welcome to STANDARDmade! I'm 8Kit, Crypto Software Automation Engineer by day and Creator, Web3Dev, Designer by night. 
-          I started this solo-project way back in 2019, formerally as Standard Clothing Company, LLC. As a Army Airborne Veteran, my goal at the time was simple: 
-          pay tribute to the amazing Healthcare, Military, and First Responder service professionals by repurposing their duty worn uniforms 
-          into unique patches and accents on standard clothing items. 
+          Keith was born at an early age. Scientists speculate this phenomenon took place sometime during the mid 1980s. He began working at a sheet metal factory around the age of nine, 
+          and within about a week he was running the floor as the shop supervisor. Keith was then offered a position at the local tannery working with leather, which was always a dream of his. 
           <br></br>
           <br></br>
-          Honoring amazing people and retelling their stories in unconventional ways came naturally, 
-          but navigating the choppy waters of the volitile retail market presented many unforseen and costly challenges. So, I've docked that old boat at the edge of the 
-          retail seas and decided to take a rocket ship straght into the future of the Web3 galaxy and NFTs! 
+          Besides being an avid hunter, fisherman and metallurgist, Keith has a special affinity for breakfast foods and meats of all kinds while disdaining non-manly dishes like salads. 
+          In high school Keith's alter ego Chet Muston, a somewhat well-known jazz musician, released three contemporary albums including his iTunes Top 100 hit "Pardon My French...Horn".  
           <br></br>
           <br></br>
-          This has very much felt like a destiny project - perfectly aligning my day/night passions into this STANDARDmade universe. Designs, mock-ups, uniforms, 
-          and stories from previous retail endevors have provided an ironic launchpad for transforming these mediums into digital assets. Each NFT draws 
-          inspiration from real service professionals, the uniforms they wore, and the stories they tell. Every minted STANDARDmade NFT will unlock additional content - 
-          including who inspired the design and bonus content from their time in service. 
+          Although his college years were mostly a blur, Keith managed to land himself one sweet babe. A woman so fine only the tantalizing romantics of a truly great seduction artist could swoon her. 
+          They would later marry. Eventually Keith's unwavering strength and heroics pulled him out of college where he was called upon by a few high-powered U.S. and foreign dignitaries to protect America 
+          from ISIS and other Islamic militants. 
           <br></br>
           <br></br>
-          <small>**In some rarity cases, minted NFTs can include a premium layered effect utilizing the service member's duty-worn uniform - photos of the real service uniforms are 
-          digitally converted in Adobe Illustrator® and used as effect layers that include special rare properties.</small>   
+          Having spent four years in the Army saving lives and jumping out of planes; his time in service gave rise to several best-selling books and hit television shows, which were loosely based on his life. 
+          Despite having worked for the government, Keith has a surprisingly strong work ethic. In 6 hours, he managed to construct a full-size replica of the Statue of Liberty out of Nutella.
+          <br></br>
+          <br></br>
+          <small>**In all seriousness, I'm seriously not being serious. If you're seriously interested in my work, or just want to say you hired a unicorn, 
+          I'm actually a seriously hard worker with a professionally serious resume.
+          </small>   
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Learn More</a>
+          <a href='../../assets/KEITH_HUDSON_RESUME.pdf' className='btn btn-primary' download>Learn More</a>
         </div>
       </div>
     </section>

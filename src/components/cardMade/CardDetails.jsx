@@ -70,10 +70,10 @@ const MadeLogo = styled.div`
 export function CardDetails(props) {
   return (
     <DetailsContainer>
-      <SmallText>Mint</SmallText>
+      <SmallText>Keith Hudson</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>Standard Made NFT #001</MediumText>
-        <MediumText>₰420</MediumText>
+        <MediumText>QA Automation Expert</MediumText>
+        <MediumText>₰999</MediumText>
       </SpacedHorizontalContainer>
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>

@@ -104,7 +104,7 @@ const HeaderMinter = ({ accounts, setAccounts }) => {
                       marginTop="10px"
                       onClick={handleMint}
                   >
-                      Mint Now
+                      Test Now
                   </Button>
               </Flex>
               <Text
@@ -115,7 +115,7 @@ const HeaderMinter = ({ accounts, setAccounts }) => {
                   textShadow="0 2px 2px #000000"
                   color="var(--color-neon)"
               >
-                  Connected - Happy Minting!!
+                  Connected - Happy Testing!!
               </Text>
           </div>
       ) : (
@@ -130,7 +130,7 @@ const HeaderMinter = ({ accounts, setAccounts }) => {
                       marginBottom="25px"
                       onClick={connectAccount}
                   >
-                      Connect  Wallet
+                      Connect Test Wallet
                   </Button>
               </Flex>
               <Text
@@ -141,7 +141,7 @@ const HeaderMinter = ({ accounts, setAccounts }) => {
                   textShadow="0 2px 2px #000000"
                   color="var(--color-neon)"
               >
-                  You must be connected to Mint.
+                  You must be connected to Test.
               </Text>
           </div>
       )}
