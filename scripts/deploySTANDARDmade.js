@@ -1,12 +1,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const STANDARDmadeNFT = await hre.ethers.getContractFactory("STANDARDmadeNFT");
-  const sandardMadeNFT = await STANDARDmadeNFT.deploy();
+  const STANDARDmade = await hre.ethers.getContractFactory("STANDARDmade");
+  const sandardMade = await STANDARDmade.deploy();
 
-  await sandardMadeNFT.deployed();
+  await sandardMade.deployed();
 
-  console.log("STANDARDmadeNFT deployed to:", sandardMadeNFT.address);
+  console.log("STANDARDmade deployed to:", sandardMade.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

@@ -41,13 +41,13 @@ echo.
 echo Key: [1] GOOGLE
 echo [2] YOUTUBE
 echo [3] WIKI
-echo [4] PORTAL
-echo [5] JIRA
-echo [6] QA COMPLETE
+echo [4] TACOS
+echo [5] MADE
+echo [6] STAR WARS
 echo [7] TEST COMPLETE
 echo [8] STACK OVERFLOW
 echo [9] CODE ACADEMY
-echo [10] SQL AUTHORITY
+echo [10] EXTRA
 echo.
 echo [e] Exit
 echo.
@@ -60,13 +60,13 @@ echo ---------------------------------------------------------------------------
 if %udefine%==1 start www.google.com
 if %udefine%==2 start www.youtube.com
 if %udefine%==3 start www.wikipedia.com
-if %udefine%==4 start https://portal.racetrac.com/Home
-if %udefine%==5 start https://isdeptjira.rt.corp/login.jsp
-if %udefine%==6 start http://130.100.251.201/common/Logon.asp?app=agSPEnt
+if %udefine%==4 start https://www.tacoipsum.com/
+if %udefine%==5 start https://www.made.llc
+if %udefine%==6 start https://asciimation.co.nz/index.php
 if %udefine%==7 start https://support.smartbear.com/
 if %udefine%==8 start https://stackoverflow.com/
 if %udefine%==9 start https://www.codecademy.com/
-if %udefine%==10 start https://blog.sqlauthority.com/
+if %udefine%==10 start https://www.youtube.com/watch?v=dQw4w9WgXcQ
 if %udefine%==e goto exit
 
 cls

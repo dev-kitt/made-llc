@@ -5,8 +5,8 @@ pragma solidity ^0.8.4;
 import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
 
-// STANDARDmadeNFT.sol SMART Contract
-contract STANDARDmadeNFT is ERC721, Ownable {
+// STANDARDmade.sol SMART Contract
+contract STANDARDmade is ERC721, Ownable {
 	uint256 public mintPrice;
 	uint256 public totalSupply;
 	uint256 public maxSupply;
@@ -17,11 +17,11 @@ contract STANDARDmadeNFT is ERC721, Ownable {
 	mapping(address => uint256) public walletMints;
 	
 	constructor() payable ERC721('STANDARDmade', 'MADE') { 
-		mintPrice = 0.0420 ether;
+		mintPrice = 0.9999 ether;
 		totalSupply = 0;
-		maxSupply = 420;
-		maxPerWallet = 3;
-		// withdrawWallet = 8Kit Address
+		maxSupply = 999;
+		maxPerWallet = 9;
+		// withdrawWallet = kITt Address
 	}	
 
 	function setIsPublicMintEnabled(bool isPublicMintEnabled_) external onlyOwner {
