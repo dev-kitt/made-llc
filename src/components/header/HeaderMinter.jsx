@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './headerMint.css'
 import { ethers, BigNumber } from 'ethers'
 import { Button, Flex, Input, Text } from '@chakra-ui/react'
-import standardMadeNFT from '../../STANDARDmadeNFT.json'
+import standardMade from '../../STANDARDmade.json'
 
-const standardMadeNFTAddress = '0xf063FB4Bc2642C77F938B1dc76483D5bf8714512'
+const standardMadeAddress = '0xf063FB4Bc2642C77F938B1dc76483D5bf8714512'
 
 const HeaderMinter = ({ accounts, setAccounts }) => {
   const [mintAmount, setMintAmount] = useState(1)
@@ -15,8 +15,8 @@ const HeaderMinter = ({ accounts, setAccounts }) => {
           const provider = new ethers.providers.Web3Provider(window.etherum)
           const signer = provider.getSigner();
           const contract = new ethers.Contract(
-              standardMadeNFTAddress,
-              standardMadeNFT.abi,
+              standardMadeAddress,
+              standardMade.abi,
               signer
           )
           try {
