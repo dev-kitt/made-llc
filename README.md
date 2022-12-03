@@ -1,4 +1,4 @@
-**<h1> kITt: by STANDARDmade</h1>**
+**<h1> kitt: by STANDARDmade</h1>**
 ![STANDARDmade-logo](/src/assets/standard-readme.png "STANDARDmade, LLC")
 
 

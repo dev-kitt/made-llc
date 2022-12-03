@@ -41,7 +41,7 @@ const About = () => {
 
             <article className='about__card'>
               <FaRobot className='about__icon'/>
-              <h5>kITt:</h5>
+              <h5>kitt</h5>
               <small>keep IT testing</small>
             </article>
           </div>
