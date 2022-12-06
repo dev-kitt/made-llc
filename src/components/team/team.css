@@ -50,9 +50,24 @@
     }    
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+
+}
+
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
+@media screen and (max-width: 824px) {
+
+}
+
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
     .container.team__container {
         width: 100%;
     }
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
+@media screen and (max-width: 424px) {
+
 }

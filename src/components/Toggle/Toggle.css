@@ -20,9 +20,24 @@
     position: absolute;
 }
 
-  /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-  @media screen and (max-width: 600px) {
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+
+}
+
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
+@media screen and (max-width: 824px) {
+
+}
+
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
     .toggle {
-        right: 1.5rem;
+        right: 1rem;
     }
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
+@media screen and (max-width: 424px) {
+
 }

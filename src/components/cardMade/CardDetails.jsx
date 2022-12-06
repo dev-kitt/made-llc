@@ -34,7 +34,7 @@ const SpacedHorizontalContainer = styled.div`
   align-items: center;
 `
 
-const BuyButton = styled.button`
+const BuyButton = styled.a`
   padding: 10px 16px;
   background-color: var(--color-neon);
   color: #000;
@@ -78,7 +78,7 @@ export function CardDetails(props) {
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
         <SmallText>YOUR NEXT ASSET</SmallText>
-        <BuyButton>BUY</BuyButton>
+        <BuyButton href='../../assets/KEITH_HUDSON_RESUME.pdf' download>BUY</BuyButton>
       </SpacedHorizontalContainer>
       <MadeLogo>
         <img src={madeTM} alt="nft" />

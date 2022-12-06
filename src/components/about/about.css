@@ -54,6 +54,11 @@
     transition: var(--transition);
 }
 
+.about__cardx {
+    visibility: hidden;
+    display: none;
+}
+
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -83,7 +88,7 @@
     color: var(--color-light);
 }
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
     .about__banner {
         transform: scale(1);
@@ -102,30 +107,57 @@
     }
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     .about__banner {
         transform: scale(1.5);
     }
     .about__me {
-        width: 75%;
+        width: 80%;
         margin: 0 auto 3rem;
+    }
+    .about__content {
+        text-align: center;
+    }
+}
+
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
+    .about__me {
+        width: 90%;
     }
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    .about__content {
+    .about__cardx {
+        visibility: visible;
+        display: inherit;
+        background: var(--color-neon);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 2rem;
         text-align: center;
-    }
-    .about__content p {
-        margin: 1.5rem 0;
+        align-items: center;
     }
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
+    #about {
+        width: 100%;
+    }
     .about__banner {
+        display: none;
+    }
+    .about__me {
+        width: 100%;
+    }
+    .about__cards {
+        grid-template-columns: 1fr;
+        transform: scale(90%);
+    }
+    .about__content > p {
         display: none;
     }
 }

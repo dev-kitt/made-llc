@@ -54,7 +54,7 @@ textarea {
     color: var(--color-white);
 }
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
     .container.contact__container {
         grid-template-columns: 1fr;
@@ -63,14 +63,19 @@ textarea {
     }
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     .container.contact__container {
         width: 75%;
     }
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
+
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
     .container.contact__container {
         width: 100%;

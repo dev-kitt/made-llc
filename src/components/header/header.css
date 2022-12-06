@@ -53,22 +53,22 @@ header {
     color: var(--color-primary-variant);  
 }
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
-@media screen and (max-width: 1024px) { 
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
 
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
-@media screen and (max-width: 824px) { 
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
+@media screen and (max-width: 824px) {
 
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
 
 }
 
-/* ========== MEDIA QUERIES (SMALL MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
     .header__container > h1 {
         font-size: 1.5rem;

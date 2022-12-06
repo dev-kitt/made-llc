@@ -49,7 +49,9 @@
     font-size: 0.9rem;
 }
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+
+
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
     .card__container-parallax,
     .scroll__down {
@@ -57,14 +59,19 @@
     }
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     .header__socials {
         display: none;
     }
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
+
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
 
 }

@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-purp);
+    color: var(--color-neon);
 }
 
 .btn {
@@ -126,12 +126,12 @@ img {
     object-fit: cover;
 }
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
 
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     section { 
         margin: 1rem;
@@ -139,7 +139,12 @@ img {
     }
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
+
+}
+
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
     section { 
         margin: 0rem;

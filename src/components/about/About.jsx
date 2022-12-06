@@ -44,6 +44,10 @@ const About = () => {
               <h5>KITT:</h5>
               <small>Keep IT Testing</small>
             </article>
+
+            <article className='about__cardx'>
+
+            </article>
           </div>
 
           <p>

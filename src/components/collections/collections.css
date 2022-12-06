@@ -31,7 +31,7 @@
     margin-bottom: 1rem;
 }
 
-/* ========== MADE ========== */
+/* ========== MADE ========== 
 .made {
     width: 22rem;
     height: 30rem;
@@ -42,8 +42,9 @@
     align-items: center;
     justify-content: center;
 }
+*/
 
-/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
     .collections__container {
         grid-template-columns: 1fr 1fr;
@@ -51,14 +52,24 @@
     }
 }
 
-/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     .collections__container {
         grid-template-columns: 1fr;
     }
 }
 
-/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
-@media screen and (max-width: 424px) {
+/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
+@media screen and (max-width: 624px) {
+    .collections__container {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+}
 
+/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
+@media screen and (max-width: 424px) {
+    #collections {
+        display: none;
+    }
 }
