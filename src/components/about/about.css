@@ -83,40 +83,49 @@
     color: var(--color-light);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1007px) {
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+    .about__banner {
+        transform: scale(1);
+        padding-bottom: 2.5rem;
+    } 
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
-
     .about__me {
-        width: 50%;
+        width: 60%;
         margin: 2rem auto 4rem;
     }
-
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
 }
 
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 641px) {
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
+    .about__banner {
+        transform: scale(1.5);
+    }
     .about__me {
-        width: 65%;
+        width: 75%;
         margin: 0 auto 3rem;
     }
-
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-
     .about__content {
         text-align: center;
     }
-
     .about__content p {
         margin: 1.5rem 0;
+    }
+}
+
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
+    .about__banner {
+        display: none;
     }
 }

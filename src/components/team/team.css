@@ -1,5 +1,5 @@
 .container.team__container {
-    width: 40%;
+    width: 50%;
     padding-bottom: 4rem;
 }
 
@@ -36,14 +36,23 @@
     background: var(--color-primary);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1024px) {
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1024px) { 
     .container.team__container {
-        width: 60%;
+        width: 70%;
     }
 }
 
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
+    .container.team__container {
+        width: 80%;
+    }    
+}
 
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 624px) {
+    .container.team__container {
+        width: 100%;
+    }
 }

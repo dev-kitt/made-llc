@@ -28,7 +28,7 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>TestComplete</p>
+              <p>TestComplete/Selenium</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
@@ -36,7 +36,7 @@ const Service = () => {
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>WebDriverIO</p>
+              <p>WebDriverIO/Cucumber</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />

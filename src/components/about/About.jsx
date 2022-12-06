@@ -36,13 +36,13 @@ const About = () => {
             <article className='about__card'>
               <MdDeveloperMode className='about__icon'/>
               <h5>TESTING</h5>
-              <small>Desktop/Web/Mobile/API/DB</small>
+              <small>Full Stack E2E</small>
             </article>
 
             <article className='about__card'>
               <FaRobot className='about__icon'/>
-              <h5>kitt</h5>
-              <small>keep IT testing</small>
+              <h5>KITT:</h5>
+              <small>Keep IT Testing</small>
             </article>
           </div>
 

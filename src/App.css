@@ -29,7 +29,7 @@
 
     --transition: all 400ms ease;
 
-    --container-width: 88%;
+    --container-width: 90%;
 }
 
 html {
@@ -126,27 +126,23 @@ img {
     object-fit: cover;
 }
 
-/* ========== MEDIA QUERIES (LARGE SCREEN) ========== */ 
-@media screen and (max-width: 1008px) { 
-    .btn {
-        padding: 0.5rem;
-        font-weight: 420;    
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+
+}
+
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
+    section { 
+        margin: 1rem;
+        padding: 1rem;
     }
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1007px) {
-    section {
-        margin-top: 6rem;
-    }
-}
-
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 641px) {
-    .btn {
-        font-size: 0.8rem;
-    }
-    section > h2 {
-        margin-bottom: 1rem;
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
+    section { 
+        margin: 0rem;
+        padding: 0rem;
     }
 }

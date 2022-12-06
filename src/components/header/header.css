@@ -8,6 +8,10 @@ header {
     position: relative;
 }
 
+.header__container > h1 {
+    color: var(--color-bg);
+}
+
 /* ========== mint ========== */
 .mint {
     padding-top: 2.5rem;
@@ -49,43 +53,24 @@ header {
     color: var(--color-primary-variant);  
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1200px) {
-    header {
-        height: 100vh;
-    }
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1024px) { 
 
-    h1 {
+}
+
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) { 
+
+}
+
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 624px) {
+
+}
+
+/* ========== MEDIA QUERIES (SMALL MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
+    .header__container > h1 {
         font-size: 1.5rem;
-    }
-
-    .header__socials { 
-        top: 5rem;
-        left: -2rem;
-    }
-}
-
-/* ========== MEDIA QUERIES (ODD SCREEN) ========== */
-@media screen and (max-width: 800px) {
-    .header__socials, 
-    .scroll__down {
-        display: none;
-    }
-}
-
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-        padding: 0;
-    }
-
-    h5 {
-        font-size: 0.6rem;
-    }
-
-    h1 {
-        transform: scale(0.6);
-        left: 2rem;
     }
 }
