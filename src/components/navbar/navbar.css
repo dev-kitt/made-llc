@@ -49,26 +49,19 @@
     flex: 2;
   }
 
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+
+}
+
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */ 
+@media screen and (max-width: 824px) { 
+
+}
+
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
-    .n-wrapper {
-        display: absolute;
-    }
-
-    .n-right {
-        transform: scale(0.8);
-        margin-right: -2rem;
-    }
-
-    .n-left {
-        transform: scale(1.2);
-        gap: 0;
-        margin-left: -2rem;
-    }
-    
-    .header__socials, 
-    .scroll__down,
-    .n-list {
-        display: none;
-    }
+@media screen and (max-width: 624px) {
+  .n-wrapper {
+    transform: scale(0.8);
+  }
 }

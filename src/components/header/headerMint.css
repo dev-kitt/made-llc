@@ -12,19 +12,23 @@
     padding-left: 2rem;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1200px) {
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
+
+}
+
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
     .mint {
         padding-bottom: 50rem;
     }
 }
 
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
     .mint {
         padding-bottom: 25rem;
     }
-
     .mint__image {
         padding-top: 2rem;
     }

@@ -43,18 +43,22 @@
     justify-content: center;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1024px) {
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
     .collections__container {
         grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        gap: 1rem;
     }
 }
 
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
     .collections__container {
         grid-template-columns: 1fr;
-        gap: 1rem;
     }
+}
+
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
+
 }

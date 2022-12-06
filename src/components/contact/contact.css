@@ -1,5 +1,5 @@
 .container.contact__container {
-    width: 50%;
+    width: 75%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -54,15 +54,25 @@ textarea {
     color: var(--color-white);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1024px) {
+/* ========== MEDIA QUERIES (DESKTOP SCREEN) ========== */ 
+@media screen and (max-width: 1224px) { 
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        width: 65%;
     }
 }
 
-/* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 600px) {
+/* ========== MEDIA QUERIES (TABLET SCREEN) ========== */
+@media screen and (max-width: 824px) {
+    .container.contact__container {
+        width: 75%;
+    }
+}
 
+/* ========== MEDIA QUERIES (MOBILE SCREEN) ========== */
+@media screen and (max-width: 424px) {
+    .container.contact__container {
+        width: 100%;
+    }
 }
