@@ -1,7 +1,7 @@
 {
   "name": "kitt",
   "version": "1.0.1",
-  "private": true,
+  "license": "SEE LICENSE IN STANDARDmade, LLC",
   "dependencies": {
     "@chakra-ui/react": "^2.4.2",
     "@emailjs/browser": "^3.10.0",
@@ -44,27 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "assert": "^2.0.0",
-    "buffer": "^6.0.3",
-    "crypto-browserify": "^3.12.0",
-    "dotenv": "^10.0.0",
-    "firebase-tools": "^11.16.1",
-    "html-webpack-plugin": "^5.5.0",
-    "https-browserify": "^1.0.0",
-    "npm-force-resolutions": "^0.0.10",
-    "os-browserify": "^0.3.0",
-    "process": "^0.11.10",
-    "react-app-rewired": "^2.2.1",
-    "react-scripts": "^5.0.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "swiper": "^8.4.5",
-    "url": "^0.11.0"
+    "firebase-tools": "^11.17.0"
   },
   "resolutions": {
     "react-scripts/webpack": "5.70.0"
