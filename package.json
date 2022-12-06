@@ -15,7 +15,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-plx": "^2.0.1",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.5"
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
@@ -44,7 +45,13 @@
     ]
   },
   "devDependencies": {
-    "firebase-tools": "^11.17.0"
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0"
   },
   "resolutions": {
     "react-scripts/webpack": "5.70.0"
