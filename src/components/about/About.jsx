@@ -51,21 +51,21 @@ const About = () => {
           </div>
 
           <p>
-          Keith was born at an early age. Scientists speculate this phenomenon took place sometime during the mid 1980s. He began working at a sheet metal factory around the age of nine, 
-          and within about a week he was running the floor as the shop supervisor. Keith was then offered a position at the local tannery working with leather, which was always a dream of his. 
+          Kitt was born at an early age. Scientists speculate this phenomenon took place sometime during the mid 1980s. He began working at a sheet metal factory around the age of nine, 
+          and within about a week he was running the floor as the shop supervisor. Kitt was then offered a position at the local tannery working with leather, which was always a dream of his. 
           <br></br>
           <br></br>
-          Besides being an avid hunter, fisherman and metallurgist, Keith has a special affinity for breakfast foods and meats of all kinds while disdaining non-manly dishes like salads. 
-          In high school Keith's alter ego Chet Muston, a somewhat well-known jazz musician, released three contemporary albums including his iTunes Top 100 hit "Pardon My French...Horn".  
+          Besides being an avid hunter, fisherman and metallurgist, Kitt has a special affinity for breakfast foods and meats of all kinds while disdaining non-manly dishes like salads. 
+          In high school Kitt's alter ego Chet Muston, a somewhat well-known jazz musician, released three contemporary albums including his iTunes Top 100 hit "Pardon My French...Horn".  
           <br></br>
           <br></br>
-          Although his college years were mostly a blur, Keith managed to land himself one sweet babe. A woman so fine only the tantalizing romantics of a truly great seduction artist could swoon her. 
-          They would later marry. Eventually Keith's unwavering strength and heroics pulled him out of college where he was called upon by a few high-powered U.S. and foreign dignitaries to protect America 
+          Although his college years were mostly a blur, Kitt managed to land himself one sweet babe. A woman so fine only the tantalizing romantics of a truly great seduction artist could swoon her. 
+          They would later marry. Eventually Kitt's unwavering strength and heroics pulled him out of college where he was called upon by a few high-powered U.S. and foreign dignitaries to protect America 
           from ISIS and other Islamic militants. 
           <br></br>
           <br></br>
           Having spent four years in the Army saving lives and jumping out of planes; his time in service gave rise to several best-selling books and hit television shows, which were loosely based on his life. 
-          Despite having worked for the government, Keith has a surprisingly strong work ethic. In 6 hours, he managed to construct a full-size replica of the Statue of Liberty out of Nutella.
+          Despite having worked for the government, Kitt has a surprisingly strong work ethic. In 6 hours, he managed to construct a full-size replica of the Statue of Liberty out of Nutella.
           <br></br>
           <br></br>
           <small>**In all seriousness, I'm seriously not being serious. If you're seriously interested in my work, or just want to say you hired a unicorn, 
@@ -73,7 +73,7 @@ const About = () => {
           </small>   
           </p>
 
-          <a href='../../assets/KEITH_HUDSON_RESUME.pdf' className='btn btn-primary' download>Learn More</a>
+          <a href='../../assets/KITT_RESUME.pdf' className='btn btn-primary' download>Learn More</a>
         </div>
       </div>
     </section>

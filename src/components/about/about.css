@@ -110,7 +110,7 @@
 /* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
     .about__banner {
-        transform: scale(1.5);
+        transform: scale(1.25);
     }
     .about__me {
         width: 80%;

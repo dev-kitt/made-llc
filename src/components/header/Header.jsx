@@ -9,12 +9,10 @@ const Header = () => {
   return (
     <header id="mint">
       <div className="container header__container">    
-        <h5 className="text-light">kITt: keep IT testing</h5> 
+        <h5 className="text-light">Extraordinary Automation Engineering</h5> 
         <h1>STANDARDmade</h1>
         <h5 className="text-light">
-          Extraordinary Automation Engineering
-          <br></br>
-          by Keith Hudson
+          by Kitt
         </h5>
         <HeaderMinter accounts={accounts} setAccounts={setAccounts} />
         <HeaderSocials />

@@ -17,26 +17,26 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'kITt',
+    name: 'kITt:',
     title: 'Captain of Creation',
-    review: 'Hey it⁠\'s me - kITt, and this is all of my stuff. I\'m a former Army Parachute Rigger turned Software Automation Expert currently spending my days engineering the automated testing efforts behind one of crypto\'s largest fintech companies. And this is my "portfolio"! '
+    review: 'Hey it⁠\'s me - Kitt, and this is all of my stuff. I\'m a former Army Parachute Rigger turned Software Automation Expert currently spending my days engineering the automated testing efforts behind one of crypto\'s largest fintech companies. And this is my "portfolio"! '
   },
   {
     avatar: AVTR2,
-    name: 'kITt',
+    name: 'kITt:',
     title: 'Chief of Design',
-    review: 'How do you feel about hard shelled tacos? Add in a few el Pastor with guac and diced onions. Pico de gallo, on the side please. Flour or corn tortillas? Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp.'
+    review: 'Me again...the other member of the team. And by other, I mean only. Guess that means I promoted myself to Chief of Design. Thank goodness we don\'t have an HR department. Enjoy your stay. If you don\'t, please forward all complaints to https://gprivate.com/629qw for official review.'
   },
   {
     avatar: AVTR3,
-    name: 'kITt',
+    name: 'kITt:',
     title: 'Commander of Development',
-    review: 'How do you feel about hard shelled tacos? Add in a few el Pastor with guac and diced onions. Pico de gallo, on the side please. Flour or corn tortillas? Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp.'
+    review: '(1) What is the difference between a Software QA Engineer, a Software Automation Engineer, and a Software Development Engineer in Test? Pay. (2) To tell somebody they are wrong is called criticism. To do so officially is called testing. (3) Every tester has the heart of a developer … in a jar on their desk.'
   },
   {
     avatar: AVTR4,
     title: 'Admiral of Daydreaming',
-    name: 'kITt',
+    name: 'kITt:',
     review: 'How do you feel about hard shelled tacos? Add in a few el Pastor with guac and diced onions. Pico de gallo, on the side please. Flour or corn tortillas? Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp.'
   }
 ]
