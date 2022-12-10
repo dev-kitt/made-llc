@@ -1,10 +1,11 @@
-**<h1> kitt: by STANDARDmade</h1>**
+**<h1> kitt | STANDARDmade</h1>**
 ![STANDARDmade-logo](/src/assets/standard-readme.png "STANDARDmade, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[kITt:](https://standardmade.io) `keep IT testing` by STANDARDmade, LLC + :taco::taco::taco:
+[kitt](https://standardmade.io) [`keep IT testing`]
+by STANDARDmade, LLC
 - Portfolio & Playground
   - About Me
   - Automation Stuff
@@ -35,10 +36,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 
 ## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
-My :taco: diary...shh, don't tell.
-
-### <span style="color:#A6A6A6"> INSTALL </span>
-Below is an installation guide for deploying **kITt:** by STANDARDmade, LLC. Not really, I'm just hungry!
+Installation guide for deploying **| kitt |** by STANDARDmade, LLC. Not really, I'm just hungry for :taco::taco::taco:'s!
 
 
 ``` js

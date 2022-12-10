@@ -32,8 +32,8 @@ const Contact = () => {
           <artice className="contact__option">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>kit@made.llc</h5>
-            <a href="mailto:kit@made.llc" rel="noreferrer" target="_blank">Send a message</a>
+            <h5>kitt@made.llc</h5>
+            <a href="mailto:kitt@made.llc" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
           <artice className="contact__option">
             <BsGithub className='contact__option-icon' />
