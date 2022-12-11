@@ -78,7 +78,7 @@ export function CardDetails(props) {
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
         <SmallText>YOUR NEXT ASSET</SmallText>
-        <BuyButton href='../../assets/KITT_RESUME.pdf' download>BUY</BuyButton>
+        <BuyButton href='../../assets/kitt-resume.pdf' download>BUY</BuyButton>
       </SpacedHorizontalContainer>
       <MadeLogo>
         <img src={madeTM} alt="nft" />

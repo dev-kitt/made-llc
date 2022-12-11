@@ -72,7 +72,7 @@ const Collections = () => {
               </div>
               <h3>{title}</h3>
               <div className="collections__item-cta">
-                <a href={openSee} className='btn btn-primary' download>Download</a>
+                <a href={image} className='btn btn-primary' download>Download</a>
                 <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
               </div>
             </article>

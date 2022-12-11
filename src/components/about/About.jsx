@@ -73,7 +73,7 @@ const About = () => {
           </small>   
           </p>
 
-          <a href='../../assets/KITT_RESUME.pdf' className='btn btn-primary' download>Learn More</a>
+          <a href='../../assets/kitt-resume.pdf' className='btn btn-primary' download>Learn More</a>
         </div>
       </div>
     </section>
