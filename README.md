@@ -1,21 +1,22 @@
-**<h1> kitt | STANDARDmade</h1>**
+**<h1>STANDARDmade</h1>**
 ![STANDARDmade-logo](/src/assets/standard-readme.png "STANDARDmade, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[kitt](https://standardmade.io) [`keep IT testing`]
-by STANDARDmade, LLC
+[STANDARDmade](https://made.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
 - Portfolio & Playground
   - About Me
   - Automation Stuff
   - Web3 Stuff
+  - Flutter Stuff
+  - AR/VR Stuff
   - DevOps Stuff
   - :taco: Stuff
 
 
 ## <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
-If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it to: **kit@made.llc** 
+If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it to: **kitt@made.llc** 
 
 
 
@@ -24,25 +25,18 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 | ------------- |:-------------:|
 | React.js | 18.1.0 |
 | Node.js | 16.15.0 |
-| OpenZeppelin | 4.6.0 |
-| Crypto-Browserify | 3.12.0 |
-| Stream | 3.0.0 |
-| Hardhat | 2.9.3 |
-| -etherscan | ^ |
-| -waffle | ^ |
-| MetaMask | 1.2.0 |
-| Solidarity | 0.8.4 |
+| Yarn | 1.22.19 |
 
 
 
 ## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
-Installation guide for deploying **| kitt |** by STANDARDmade, LLC. Not really, I'm just hungry for :taco::taco::taco:'s!
+Installation guide for deploying **| STANDARDmade |** by Kitt. Not really, I'm just hungry for :taco::taco::taco:'s!
 
 
 ``` js
 // EAT MORE TACOS [js]
 function tacosToEat() {
-  const message = document.getElementById("8Kit");
+  const message = document.getElementById("Kitt");
   message.innerHTML = "";
   let x = document.getElementById("tacos").value;
   try {
@@ -91,8 +85,6 @@ WITH cte_Tacos (TacoType) AS
 SELECT TOP 1 TacoType FROM cte_Tacos ORDER BY NEWID()
 
 ```
-
-
 
 ### <span style="color:#A6A6A6"> TODO </span>
 To further define which tacos should be consumed, use the dropdown reference below...

@@ -3,19 +3,12 @@ import './services.css'
 import { AiFillStar } from 'react-icons/ai'
 import { GiHealthNormal } from 'react-icons/gi'
 import { MdHealthAndSafety } from 'react-icons/md'
-import pros from '../../assets/service-icon.png'
 
 const Service = () => {
   return (
-    <section id='services'>
-      <div className="service__pros">
-        <div className='service__pros-image'>
-            <img src={pros} alt="mint-nft" />
-        </div>
-      </div>
-      
-      <h5>[ core ]</h5>
-      <h2>Compentencies</h2>
+    <section id='services'>     
+      <h5>[ my skills ]</h5>
+      <h2>Services</h2>
       <br></br>
       <br></br>
 
@@ -28,7 +21,7 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>TestComplete/Selenium</p>
+              <p>TestComplete/Selenium/Cypress</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
@@ -36,19 +29,19 @@ const Service = () => {
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>WebDriverIO/Cucumber</p>
+              <p>WebDriverIO/Cucumber/Appium</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>SSMS/MongoDB</p>
+              <p>SSMS/MongoDB/PostgreSQL</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>Azure DevOps/Jira</p>
+              <p>Azure/Jira/GCP/K8s</p>
             </li>
             <li>
               <GiHealthNormal className='service__list-icon' />
-              <p>GitHub/Git</p>
+              <p>GitHub/Git/Firebase/NPM/Yarn</p>
             </li>
           </ul>
         </article>
@@ -62,15 +55,15 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>JavaScript</p>
+              <p>JavaScript/Node/Python/C#</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>HTML/CSS</p>
+              <p>HTML/CSS/Bootstrap</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>SQL/NoSQL</p>
+              <p>SQL/NoSQL/PSQL</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
@@ -96,11 +89,11 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>ISTQB/QA</p>
+              <p>Agile/Scrum/Waterfall</p> 
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>CI/CD</p>
+              <p>ISTQB/QA</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
@@ -108,15 +101,15 @@ const Service = () => {
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>HA/DR</p>
+              <p>HA/DR/IaC</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>SaaS/IaaS</p>
+              <p>AI/AR/VR</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>Agile/Scrum</p>
+              <p>CI/CD</p>
             </li>
           </ul>
         </article>

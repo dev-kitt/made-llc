@@ -1,10 +1,10 @@
-.collections__container {
+.projects__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 
-.collections__item {
+.projects__item {
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -12,20 +12,20 @@
     transition: var(--transition);
 }
 
-.collections__item:hover {
+.projects__item:hover {
     background: transparent;
 }
 
-.collections__item-image {
+.projects__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-.collections__item h3 {
+.projects__item h3 {
     margin: 1.2rem 0 2rem;
 }
 
-.collections__item-cta {
+.projects__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -46,7 +46,7 @@
 
 /* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
-    .collections__container {
+    .projects__container {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
@@ -54,14 +54,14 @@
 
 /* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
-    .collections__container {
+    .projects__container {
         grid-template-columns: 1fr;
     }
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
-    .collections__container {
+    .projects__container {
         width: 100%;
         padding-bottom: 3rem;
     }
@@ -69,7 +69,7 @@
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    #collections {
+    #projects {
         display: none;
     }
 }

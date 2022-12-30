@@ -1,5 +1,5 @@
 {
-  "name": "kitt",
+  "name": "made",
   "version": "1.0.2",
   "license": "SEE LICENSE IN STANDARDmade, LLC",
   "dependencies": {
@@ -8,8 +8,6 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@iconscout/react-unicons": "^1.1.6",
-    "@openzeppelin/contracts": "^4.8.0",
-    "ethers": "^5.7.2",
     "firebase": "^9.14.0",
     "framer-motion": "^7.6.19",
     "prettier": "^2.8.0",
@@ -48,15 +46,12 @@
     ]
   },
   "devDependencies": {
-    "crypto-browserify": "^3.12.0",
     "cypress": "^12.0.1",
     "https-browserify": "^1.0.0",
     "mini-css-extract-plugin": "^2.7.2",
     "os-browserify": "^0.3.0",
     "react-app-rewired": "^2.2.1",
-    "react-scripts": "^5.0.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "resolutions": {
     "react-scripts/webpack": "5.75.0",

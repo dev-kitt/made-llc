@@ -61,7 +61,7 @@ const About = () => {
           <br></br>
           Although his college years were mostly a blur, Kitt managed to land himself one sweet babe. A woman so fine only the tantalizing romantics of a truly great seduction artist could swoon her. 
           They would later marry. Eventually Kitt's unwavering strength and heroics pulled him out of college where he was called upon by a few high-powered U.S. and foreign dignitaries to protect America 
-          from ISIS and other Islamic militants. 
+          from terriorists and other radical militants. 
           <br></br>
           <br></br>
           Having spent four years in the Army saving lives and jumping out of planes; his time in service gave rise to several best-selling books and hit television shows, which were loosely based on his life. 

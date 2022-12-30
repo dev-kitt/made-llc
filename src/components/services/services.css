@@ -12,13 +12,6 @@
     transition: var(--transition);
 }
 
-.service__pros {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3rem;
-}
-
 .service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -88,9 +81,6 @@
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    .service__pros-image img {
-        padding-top: 3rem;
-    }
     .services__container {
         width: 90%;
         padding-bottom: 3rem;

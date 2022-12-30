@@ -5,15 +5,14 @@ import Header from './components/header/Header'
 import CardMain from './components/cardMade/CardMain'
 import About from './components/about/About'
 import Services from './components/services/Services'
-import Collections from './components/collections/Collections'
+import Projects from './components/projects/Projects'
 import Team from './components/team/Team'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { themeContext } from "./Context"
 
 function App() {
-  const [accounts, setAccounts] = useState([])
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
   
@@ -25,13 +24,13 @@ function App() {
         color: darkMode ? "var(--color-neon)" : "",
       }}
     > 
-      <Navbar accounts={accounts} setAccounts={setAccounts} />
+      <Navbar />
       <Nav />
       <CardMain />
-      <Header accounts={accounts} setAccounts={setAccounts} />
+      <Header />
       <About />
       <Services />
-      <Collections />
+      <Projects />
       <Team />
       <Contact />
       <Footer />
