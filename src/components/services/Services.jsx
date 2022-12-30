@@ -6,7 +6,9 @@ import { MdHealthAndSafety } from 'react-icons/md'
 
 const Service = () => {
   return (
-    <section id='services'>     
+    <section id='services'>
+      <br></br>
+      <br></br>     
       <h5>[ my skills ]</h5>
       <h2>Services</h2>
       <br></br>

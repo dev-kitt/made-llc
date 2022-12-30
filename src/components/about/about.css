@@ -123,6 +123,9 @@
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
+    .about__banner {
+        transform: scale(1.5);
+    }
     .about__me {
         width: 90%;
     }
@@ -136,7 +139,7 @@
         background: var(--color-neon);
         border: 1px solid transparent;
         border-radius: 1rem;
-        padding: 2rem;
+        padding: 3rem;
         text-align: center;
         align-items: center;
     }
@@ -146,6 +149,7 @@
 @media screen and (max-width: 424px) {
     #about {
         width: 100%;
+        margin-top: -175px;
     }
     .about__banner {
         display: none;

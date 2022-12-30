@@ -15,7 +15,7 @@ const data = [
     image: IMG1,
     title: 'Web3',
     openSee: '../../assets/nft001.png',
-    more: 'https://github.com/standard-made/selenium'
+    more: 'https://kitt.one'
   },
   {
     id: 2,

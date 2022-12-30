@@ -1,5 +1,6 @@
 header {
     height: 50vh;
+    padding-bottom: 5rem;
 }
 
 .header__container {
@@ -60,7 +61,9 @@ header {
 
 /* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
 @media screen and (max-width: 824px) {
-
+.header__socials {
+    display: none;    
+}
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
@@ -70,7 +73,8 @@ header {
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    .header__container > h1 {
-        font-size: 1.5rem;
+    .header__container {
+        margin-top: 55px;
+        font-size: 1rem;
     }
 }
