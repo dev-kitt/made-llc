@@ -14,21 +14,21 @@ const data = [
     id: 1,
     image: IMG2,
     title: 'Web3 Solidity Test App',
-    openSee: '../../assets/nft002.png',
-    more: 'https://kitt.one'
+    openSee: 'https://kitt.one',
+    more: 'https://github.com/standard-made/kitt-one'
   },
   {
     id: 2,
     image: IMG1,
     title: 'Find Bacon Selenium Automation',
-    openSee: '../../assets/nft001.png',
+    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/selenium/imperfect/RUN_ME-imperfect-foods.bat',
     more: 'https://github.com/standard-made/selenium'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Harvard/MIT CS50 Scratch Project',
-    openSee: '../../assets/nft003.png',
+    openSee: 'https://scratch.mit.edu/projects/385458190/editor/',
     more: 'https://scratch.mit.edu/projects/385458190/'
   },
   {
