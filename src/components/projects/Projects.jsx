@@ -12,22 +12,22 @@ import { motion } from "framer-motion";
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Web3',
-    openSee: '../../assets/nft001.png',
+    image: IMG2,
+    title: 'Web3 Solidity Test App',
+    openSee: '../../assets/nft002.png',
     more: 'https://kitt.one'
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Selenium',
-    openSee: '../../assets/nft002.png',
+    image: IMG1,
+    title: 'Find Bacon Selenium Automation',
+    openSee: '../../assets/nft001.png',
     more: 'https://github.com/standard-made/selenium'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Scratch',
+    title: 'Harvard/MIT CS50 Scratch Project',
     openSee: '../../assets/nft003.png',
     more: 'https://scratch.mit.edu/projects/385458190/'
   },
@@ -35,22 +35,22 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'TIC-TAC-TOE.bat',
-    openSee: '../../assets/nft004.png',
+    openSee: '../../assets/TIC-TAC-TOE.bat',
     more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'POKEMON.bat',
-    openSee: '../../assets/nft005.png',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
+    title: 'GUESSING-GAME.bat',
+    openSee: '../../assets/GUESSING-GAME.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'MR-ROBOT-PC-CLEAN.bat',
+    title: 'WEBSITE-SELECTOR.bat',
     openSee: '../../assets/nft006.png',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/MR.ROBOT%20PC-CLEAN.bat'
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/WEBSITE_SELECTOR.bat'
   }
 ]
 
@@ -64,7 +64,7 @@ const Projects = () => {
 
       <div className="container projects__container">
         {
-          data.map(({id, image, title, openSee, more}) => {
+          data.map(({id, image, title, more}) => {
             return (
               <article key={id} className='projects__item'>
               <div className='projects__item-image'>
@@ -72,7 +72,7 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="projects__item-cta">
-                <a href={image} className='btn btn-primary' download>Download</a>
+                <a href={image} className='btn btn-primary' download>Try It Out</a>
                 <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
               </div>
             </article>
