@@ -49,7 +49,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'WEBSITE-SELECTOR.bat',
-    openSee: '../../assets/nft006.png',
+    openSee: '../../assets/WEBSITE-SELECTOR.bat',
     more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/WEBSITE_SELECTOR.bat'
   }
 ]
@@ -64,7 +64,7 @@ const Projects = () => {
 
       <div className="container projects__container">
         {
-          data.map(({id, image, title, more}) => {
+          data.map(({id, image, title, more, openSee}) => {
             return (
               <article key={id} className='projects__item'>
               <div className='projects__item-image'>
@@ -72,7 +72,7 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="projects__item-cta">
-                <a href={image} className='btn btn-primary' download>Try It Out</a>
+                <a href={openSee} className='btn btn-primary' rel="noreferrer" target='_blank'>Try It Out</a>
                 <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
               </div>
             </article>
