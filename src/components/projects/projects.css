@@ -1,4 +1,6 @@
 .projects__container {
+    width: 100%;
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -62,14 +64,17 @@
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
     .projects__container {
-        width: 100%;
-        padding-bottom: 3rem;
+        margin-top: -10rem;
+        margin-bottom: -10rem;
+        transform: scale(0.85);
     }
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    #projects {
-        display: none;
+    .projects__container {
+        margin-top: -20rem;
+        margin-bottom: -15rem;
+        transform: scale(0.7);
     }
 }

@@ -20,37 +20,37 @@ const data = [
   {
     id: 2,
     image: IMG1,
-    title: 'Find Bacon Selenium Automation',
+    title: 'Find Bacon w/Selenium',
     openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/selenium/imperfect/RUN_ME-imperfect-foods.bat',
     more: 'https://github.com/standard-made/selenium'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Harvard/MIT CS50 Scratch Project',
-    openSee: 'https://scratch.mit.edu/projects/385458190/editor/',
-    more: 'https://scratch.mit.edu/projects/385458190/'
+    title: 'HarvardX/MIT Scratch Project',
+    openSee: 'https://scratch.mit.edu/projects/385458190',
+    more: 'https://scratch.mit.edu/projects/385458190/editor'
   },
   {
     id: 4,
     image: IMG4,
     title: 'TIC-TAC-TOE.bat',
-    openSee: '../../assets/TIC-TAC-TOE.bat',
+    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat',
     more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat'
   },
   {
     id: 5,
     image: IMG5,
     title: 'GUESSING-GAME.bat',
-    openSee: '../../assets/GUESSING-GAME.bat',
+    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat',
     more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'WEBSITE-SELECTOR.bat',
-    openSee: '../../assets/WEBSITE-SELECTOR.bat',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/WEBSITE_SELECTOR.bat'
+    title: 'POKEMON.bat',
+    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
   }
 ]
 
@@ -67,15 +67,15 @@ const Projects = () => {
           data.map(({id, image, title, more, openSee}) => {
             return (
               <article key={id} className='projects__item'>
-              <div className='projects__item-image'>
-                <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="projects__item-cta">
-                <a href={openSee} className='btn btn-primary' rel="noreferrer" target='_blank'>Try It Out</a>
-                <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
-              </div>
-            </article>
+                <div className='projects__item-image'>
+                  <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="projects__item-cta">
+                  <a href={openSee} className='btn btn-primary' rel="noreferrer" target='_blank'>Try It Out</a>
+                  <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
+                </div>
+              </article>
             )
           })
         }

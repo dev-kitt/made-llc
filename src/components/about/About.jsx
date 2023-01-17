@@ -21,7 +21,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={kittMADE} alt="About" />
+            <img src={kittMADE} alt="About" /> 
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const About = () => {
           </small>   
           </p>
 
-          <a href='../../assets/kitt-resume.pdf' className='btn btn-primary' download>Learn More</a>
+          <a href='../../assets/kitt-cover.docx' className='btn btn-primary' download>Learn More</a>
         </div>
       </div>
     </section>
