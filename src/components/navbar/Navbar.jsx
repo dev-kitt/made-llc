@@ -3,7 +3,7 @@ import Toggle from "../toggle/Toggle"
 import "./navbar.css"
 import Made from "../../assets/made_one.png"
 import Kitt from "../../assets/kitt_one.png"
-import { Image } from '@chakra-ui/react'
+import { Image, Link } from '@chakra-ui/react'
 
 const navbar = () => {
     return (
@@ -15,7 +15,9 @@ const navbar = () => {
             </div>
             {/* right */}
             <div className="n-right">
-                <Image src={Kitt} width="80px" height="80px" />
+                <Link href="https://kitt.one" rel="noreferrer" target='_blank'>
+                    <Image src={Kitt} width="80px" height="80px" />
+                </Link>
             </div>
         </div>
     )
