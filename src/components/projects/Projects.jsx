@@ -1,56 +1,56 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/nft001.png'
-import IMG2 from '../../assets/nft002.png'
-import IMG3 from '../../assets/nft003.png'
-import IMG4 from '../../assets/nft004.png'
-import IMG5 from '../../assets/nft005.png'
-import IMG6 from '../../assets/nft006.png'
+import IMG1 from '../../assets/projects/standard_made.png'
+import IMG2 from '../../assets/projects/kitt_one.png'
+import IMG3 from '../../assets/projects/kitt_plus.png'
+import IMG4 from '../../assets/projects/kitt_pro.png'
+import IMG5 from '../../assets/projects/bacon_king.png'
+import IMG6 from '../../assets/projects/taco_king.png'
 import { motion } from "framer-motion";
 
 // DO NOT USE IMAGES IN PROD
 const data = [
   {
     id: 1,
+    image: IMG1,
+    title: 'This Website, Duh',
+    openSee: 'https://made.llc',
+    more: 'https://github.com/standard-made/made-llc'
+  },
+  {
+    id: 2,
     image: IMG2,
-    title: 'Web3 Solidity Test App',
+    title: 'Kitt.One - Web3 Solidity Test App',
     openSee: 'https://kitt.one',
     more: 'https://github.com/standard-made/kitt-one'
   },
   {
-    id: 2,
-    image: IMG1,
-    title: 'Find Bacon w/Selenium',
-    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/selenium/imperfect/RUN_ME-imperfect-foods.bat',
-    more: 'https://github.com/standard-made/selenium'
-  },
-  {
     id: 3,
     image: IMG3,
-    title: 'HarvardX/MIT Scratch Project',
-    openSee: 'https://scratch.mit.edu/projects/385458190',
-    more: 'https://scratch.mit.edu/projects/385458190/editor'
+    title: 'Kitt.Plus - Flutter OpenAI GPT Chatbot',
+    openSee: 'https://kitt.plus',
+    more: 'https://github.com/standard-made/kitt-plus'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'TIC-TAC-TOE.bat',
-    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/TIC-TAC-TOE.bat'
+    title: 'Kitt.Pro - Flutter Productivity Test App',
+    openSee: 'http://kitt.pro/',
+    more: 'https://github.com/standard-made/kitt-pro'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'GUESSING-GAME.bat',
-    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/GUESSING%20GAME.bat'
+    title: 'Selenium Find Bacon Test App',
+    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/selenium/imperfect/RUN_ME-imperfect-foods.bat',
+    more: 'https://github.com/standard-made/selenium'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'POKEMON.bat',
-    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
+    title: 'HarvardX/MIT Scratch Project',
+    openSee: 'https://scratch.mit.edu/projects/385458190',
+    more: 'https://scratch.mit.edu/projects/385458190/editor'
   }
 ]
 

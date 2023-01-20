@@ -51,25 +51,31 @@ const About = () => {
           </div>
 
           <p>
-          Kitt was born at an early age. Scientists speculate this phenomenon took place sometime during the mid 1980s. He began working at a sheet metal factory around the age of nine, 
-          and within about a week he was running the floor as the shop supervisor. Kitt was then offered a position at the local tannery working with leather, which was always a dream of his. 
+          Hey I'm Keith, but here you can call me Kitt - Keith Is Testing Things, also I Keep IT Testing, or Keith Is Tasting Tacos, but mainly because of <a href="https://youtu.be/7qQ2dvSvT_M" >this</a>.  
+          As a former Army Parachute Rigger, having been selected for the Airborne Special Operations Parachute Test Facility, and as a current Test Automation Engineer and Quality Assurance Expert 
+          working in cutting edge technologies, I have spent the last 13 years specializing in the art of testing.
           <br></br>
           <br></br>
-          Besides being an avid hunter, fisherman and metallurgist, Kitt has a special affinity for breakfast foods and meats of all kinds while disdaining non-manly dishes like salads. 
-          In high school Kitt's alter ego Chet Muston, a somewhat well-known jazz musician, released three contemporary albums including his iTunes Top 100 hit "Pardon My French...Horn".  
+          In a previous life I was even an aspiring stand-up comedian (<a href="https://youtu.be/cex2SMMODbQ" >proof</a>) ... although judging by this website I may think I still am. Although I have taken a different path than most, 
+          one far less traveled, what I have come to realize over the course of my long and weathered journey, is just how uniquely and unconventionally valuable I really am. I am the one standing in the arena, the unicorn, ready to leave my mark, 
+          challenge conventions, and set a new standard. 
           <br></br>
           <br></br>
-          Although his college years were mostly a blur, Kitt managed to land himself one sweet babe. A woman so fine only the tantalizing romantics of a truly great seduction artist could swoon her. 
-          They would later marry. Eventually Kitt's unwavering strength and heroics pulled him out of college where he was called upon by a few high-powered U.S. and foreign dignitaries to protect America 
-          from terriorists and other radical militants. 
+          Metaphorically speaking, I am “IT Duct Tape” - incredibly useful, immensely versatile, strong yet pliable, binds things together, and something every team can't live without. Specializing in Test Automation Frameworks and Architecture, Test Strategy and Planning, QA/ORM/OOP/TDD/BDD Methodologies and Models, 
+          Product Design, Leadership and Mentorship; I have covered every aspect of UI/UX (Web/Mobile/Desktop), API, Back-End, Embedded Systems, Integration, and "you-name-it" testing. Enterprise testing solutions and tools included, I've worked with too many to name. Seriously, can technology just slow down and cut it out with 
+          all the different terminologies, abbreviations, and syntax changes? We can't be expected to know and retain everything, but I most certainly can learn and do anything (within reason).      
           <br></br>
           <br></br>
-          Having spent four years in the Army saving lives and jumping out of planes; his time in service gave rise to several best-selling books and hit television shows, which were loosely based on his life. 
-          Despite having worked for the government, Kitt has a surprisingly strong work ethic. In 6 hours, he managed to construct a full-size replica of the Statue of Liberty out of Nutella.
+          Currently I spend my days automating front-end, back-end, and API tests for one of crypto's largest fintech platforms. By night, I'm brushing up on new technologies in Machine Learning, AI, AR/VR, and Computer Vision; using Python, Flutter/Dart, Node/React, Angular - and of course, testing with Cypress, 
+          WebDriver, Python3, and AndroidStudio. Also I feed my kids and wife in between. 
           <br></br>
           <br></br>
-          <small>**In all seriousness, I'm seriously not being serious. If you're seriously interested in my work, or just want to say you hired a unicorn, 
-          I'm actually a seriously hard worker with a professionally serious resume.
+          Outside of moonlighting as a Developer, Designer and Dad ... I can also say I have skydived with the Golden Knights, driven a submarine, am a 2x Smartbear Community Leader, 2022 Smartbear Community Hero Nominee (TBD), 2018 Google Nesties Award Winner 😉, 
+          Auburn University Football walk-on (and off), HS Wrestling All-American - 2x State Champion and 1x Runner-Up, 2x HS Football State Champion, and 1996 Harriet the Spy Nickelodeon Contest Runner-Up. OK that last one is a reach, but this is my website so I can brag on myself when I want.
+          <br></br>
+          <br></br>
+          <small>**This is my personal portfolio website, developed by me, under my company STANDARDmade, LLC. Please don't and use any of this content or my personal information maliciously. There is a reason my face is covered by a unicorn head and why I don't have any social media accounts,
+            and I sure as heck don't own one of those Roomba vacuums - they're just expensive and we bought Omaha Steak instead.  All's I'm sayin' is, we are all living on a rock flying through space doing the best we can with what we have - Don't be a d**k!
           </small>   
           </p>
 
