@@ -74,7 +74,7 @@ const About = () => {
           Auburn University Football walk-on (and off), HS Wrestling All-American - 2x State Champion and 1x Runner-Up, 2x HS Football State Champion, and 1996 Harriet the Spy Nickelodeon Contest Runner-Up. OK that last one is a reach, but this is my website so I can brag on myself when I want.
           <br></br>
           <br></br>
-          <small>**This is my personal portfolio website, developed by me, under my company STANDARDmade, LLC. Please don't and use any of this content or my personal information maliciously. There is a reason my face is covered by a unicorn head and why I don't have any social media accounts,
+          <small>**This is my personal portfolio website, developed by me, under my company Made, LLC. Please don't and use any of this content or my personal information maliciously. There is a reason my face is covered by a unicorn head and why I don't have any social media accounts,
             and I sure as heck don't own one of those Roomba vacuums - they're just expensive and we bought Omaha Steak instead.  All's I'm sayin' is, we are all living on a rock flying through space doing the best we can with what we have - Don't be a d**k!
           </small>   
           </p>
