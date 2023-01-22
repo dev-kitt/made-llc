@@ -149,7 +149,8 @@
 @media screen and (max-width: 424px) {
     #about {
         width: 100%;
-        margin-top: -175px;
+        margin-top: -180px;
+        padding-bottom: 50px;
     }
     .about__banner {
         display: none;

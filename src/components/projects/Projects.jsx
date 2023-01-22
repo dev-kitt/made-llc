@@ -6,6 +6,9 @@ import IMG3 from '../../assets/projects/kitt_plus.png'
 import IMG4 from '../../assets/projects/kitt_pro.png'
 import IMG5 from '../../assets/projects/bacon_king.png'
 import IMG6 from '../../assets/projects/taco_king.png'
+import IMG7 from '../../assets/projects/batch_pokemon.png'
+import IMG8 from '../../assets/projects/java_adventure.png'
+import IMG9 from '../../assets/projects/vb_blackjack.png'
 import { motion } from "framer-motion";
 
 // DO NOT USE IMAGES IN PROD
@@ -50,6 +53,27 @@ const data = [
     image: IMG6,
     title: 'HarvardX/MIT Scratch Project',
     openSee: 'https://scratch.mit.edu/projects/385458190',
+    more: 'https://scratch.mit.edu/projects/385458190/editor'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Pokemon Batch Program',
+    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Epic Adventure Java Program',
+    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
+    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/java/EpicAdventure.java'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Blackjack VB.Net App',
+    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
     more: 'https://scratch.mit.edu/projects/385458190/editor'
   }
 ]
