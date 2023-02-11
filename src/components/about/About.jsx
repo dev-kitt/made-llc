@@ -4,7 +4,7 @@ import kittMADE from '../../assets/kitt-made.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdDeveloperMode} from 'react-icons/md'
 import {FaRobot} from 'react-icons/fa'
-import banner from '../../assets/about-standardmade-nft.gif'
+import banner from '../../assets/made_gif.gif'
 
 const About = () => {
   return (

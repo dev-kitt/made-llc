@@ -2,7 +2,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion"
 import './cards.css'
 import React from "react"
 import styled from "styled-components"
-import MadeImg from "../../assets/made-nft.png"
+import MadeImg from "../../assets/kitt_squirrel_fly.png"
 import { CardDetails } from "./CardDetails"
 
 const CardWrapper = styled.div`
