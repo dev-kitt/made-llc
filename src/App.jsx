@@ -21,8 +21,8 @@ function App() {
     <div
       className="App"
       style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "var(--color-neon)" : "",
+        background: darkMode ? "#fff" : "",
+        color: darkMode ? "var(--color-black)" : "",
       }}
     > 
       <Navbar />

@@ -50,7 +50,7 @@ const Projects = () => {
                 <h3>{title}</h3>
                 <div className="projects__item-cta">
                   <a href={openSee} className='btn btn-primary' rel="noreferrer" target='_blank'>Try It Out</a>
-                  <a href={more} className='btn' rel="noreferrer" target='_blank'>See My Code</a>
+                  <a href={more} className='btn' rel="noreferrer" target='_blank'>See The Code</a>
                 </div>
               </article>
             )

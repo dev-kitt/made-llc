@@ -21,11 +21,11 @@
 }
 
 .cleint__name {
-    color: var(--color-neon);
+    color: var(--color-primary-variant);
 }
 
 .client__review {
-    color: var(--color-light);
+    color: var(--color-black);
     font-weight: 300;
     display: block;
     width: 80%;

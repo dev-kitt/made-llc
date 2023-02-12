@@ -6,7 +6,7 @@
 }
 
 .service {
-    background: var(--color-bg-variant);
+    background: var(--color-neon);
     border-radius: 3rem;
     height: fit-content;
     transition: var(--transition);
@@ -19,14 +19,14 @@
 }
 
 .service__head {
-    background: var(--color-primary);
+    background: var(--color-bg);
     padding: 2rem;
     border-radius: 3rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service__head h3 {
-    color: var(--color-bg);
+    color: var(--color-light);
     font-size: 1.2rem;
     text-align: center;
 }
@@ -43,7 +43,7 @@
 }
 
 .service__list-icon {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     margin-top: 2px;
 }
 
