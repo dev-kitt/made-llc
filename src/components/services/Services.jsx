@@ -9,8 +9,8 @@ const Service = () => {
     <section id='services'>
       <br></br>
       <br></br>     
-      <h5>[ my skills ]</h5>
       <h2>Services</h2>
+      <h5>[ And Skills ]</h5>
       <br></br>
       <br></br>
 

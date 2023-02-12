@@ -49,8 +49,8 @@ const BuyButton = styled.a`
 
   &:hover {
     background-color: transparent;
-    color: #fff;
-    border: 3px solid #fbbe01;
+    color: var(--color-primary-variant);
+    border: 3px solid var(--color-primary-variant);
   }
 `
 
@@ -63,16 +63,16 @@ const MadeLogo = styled.div`
 
   img {
     width: auto;
-    height: 13px;
+    height: 18px;
   }
 `
 
 export function CardDetails(props) {
   return (
     <DetailsContainer>
-      <SmallText>Kitt: Keep IT Testing</SmallText>
+      <SmallText>Kitt: Keep IT Thriving</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>QA Automation Expert</MediumText>
+        <MediumText>Test Automation Expert</MediumText>
         <MediumText>₰999</MediumText>
       </SpacedHorizontalContainer>
       <CardSizer direction="vertical" margin="1.2em" />

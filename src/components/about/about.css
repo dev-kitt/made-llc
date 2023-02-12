@@ -4,16 +4,6 @@
     gap: 15%;
 }
 
-.about__banner {
-    margin-top: -15rem;
-    margin-bottom: 3rem;
-}
-
-.about__banner img {
-    transform: scale(0.8);
-    border-radius: 8rem;
-}
-
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -162,7 +152,7 @@
         grid-template-columns: 1fr;
         transform: scale(90%);
     }
-    .about__content > p {
+    /* .about__content > p {
         display: none;
-    }
+    } */
 }

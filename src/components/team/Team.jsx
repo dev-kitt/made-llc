@@ -44,8 +44,8 @@ const data = [
 const Team = () => {
   return (
     <section id='team'>
-      <h5>[ meet the ]</h5>
       <h2>Team</h2>
+      <h5>[ Kitt Krew ]</h5>
       <br></br>
       <br></br>
 

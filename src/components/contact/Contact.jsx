@@ -22,8 +22,8 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>[ get in touch ]</h5>
       <h2>Contact</h2>
+      <h5>[ Reach Out ]</h5>
       <br></br>
       <br></br>
 

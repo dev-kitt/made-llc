@@ -1,5 +1,5 @@
 header {
-    height: 50vh;
+    height: auto;
     padding-bottom: 5rem;
 }
 
@@ -11,6 +11,15 @@ header {
 
 .header__container > h1 {
     color: var(--color-bg);
+}
+
+.header__banner {
+    margin-top: 5rem;
+}
+
+.header__banner img {
+    transform: scale(0.8);
+    border-radius: 8rem;
 }
 
 /* ========== mint ========== */
@@ -56,7 +65,10 @@ header {
 
 /* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
 @media screen and (max-width: 1224px) { 
-
+    .header__banner {
+        transform: scale(1);
+        padding-bottom: 2.5rem;
+    } 
 }
 
 /* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
@@ -64,17 +76,26 @@ header {
     .header__socials {
         display: none;    
     }
+    .header__banner {
+        transform: scale(1.25);
+    }
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
-
+    .header__banner {
+        transform: scale(1.5);
+    }
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
     .header__container {
-        margin-top: 55px;
+        margin-top: 45px;
+        margin-bottom: 45px;
         font-size: 1rem;
+    }
+    .header__banner > img {
+        display: none;
     }
 }

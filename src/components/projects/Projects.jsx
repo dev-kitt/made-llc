@@ -1,88 +1,41 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/projects/standard_made.png'
-import IMG2 from '../../assets/projects/kitt_one.png'
-import IMG3 from '../../assets/projects/kitt_plus.png'
-import IMG4 from '../../assets/projects/kitt_pro.png'
-import IMG5 from '../../assets/projects/bacon_king.png'
-import IMG6 from '../../assets/projects/taco_king.png'
-import IMG7 from '../../assets/projects/batch_pokemon.png'
-import IMG8 from '../../assets/projects/java_adventure.png'
-import IMG9 from '../../assets/projects/vb_blackjack.png'
+import IMG1 from '../../assets/projects/kitt_one.png'
+import IMG2 from '../../assets/projects/kitt_plus.png'
+import IMG3 from '../../assets/projects/kitt_pro.png'
 import { motion } from "framer-motion";
 
 // DO NOT USE IMAGES IN PROD
 const data = [
+
   {
     id: 1,
     image: IMG1,
-    title: 'This Website, Duh',
-    openSee: 'https://made.llc',
-    more: 'https://github.com/standard-made/made-llc'
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: 'Kitt.One - Web3 Solidity Test App',
+    title: '.ONE - Web3 Solidity Test App',
     openSee: 'https://kitt.one',
     more: 'https://github.com/standard-made/kitt-one'
   },
   {
-    id: 3,
-    image: IMG3,
-    title: 'Kitt.Plus - Flutter OpenAI GPT Chatbot',
+    id: 2,
+    image: IMG2,
+    title: '.PLUS - Flutter OpenAI GPT Chatbot',
     openSee: 'https://kitt.plus',
     more: 'https://github.com/standard-made/kitt-plus'
   },
   {
-    id: 4,
-    image: IMG4,
-    title: 'Kitt.Pro - Flutter Productivity Test App',
+    id: 3,
+    image: IMG3,
+    title: '.PRO - Flutter Productivity Test App',
     openSee: 'http://kitt.pro/',
     more: 'https://github.com/standard-made/kitt-pro'
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Selenium Find Bacon Test App',
-    openSee: 'https://github.com/standard-made/devops/blob/main/qa-engineering/selenium/imperfect/RUN_ME-imperfect-foods.bat',
-    more: 'https://github.com/standard-made/selenium'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'HarvardX/MIT Scratch Project',
-    openSee: 'https://scratch.mit.edu/projects/385458190',
-    more: 'https://scratch.mit.edu/projects/385458190/editor'
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: 'Pokemon Batch Program',
-    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/batch/POKEMON.bat'
-  },
-  {
-    id: 8,
-    image: IMG8,
-    title: 'Epic Adventure Java Program',
-    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
-    more: 'https://github.com/standard-made/devops/blob/main/qa-engineering/java/EpicAdventure.java'
-  },
-  {
-    id: 9,
-    image: IMG9,
-    title: 'Blackjack VB.Net App',
-    openSee: 'https://github.com/standard-made/devops/tree/main/qa-engineering',
-    more: 'https://scratch.mit.edu/projects/385458190/editor'
-  }
 ]
 
 const Projects = () => {
   return (
     <section id='projects'>
-      <h5>[ my stuff ]</h5>
-      <h2>Projects</h2>
+      <h2>Development</h2>
+      <h5>[ Sample Projects ]</h5>
       <br></br>
       <br></br>
 

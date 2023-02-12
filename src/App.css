@@ -18,14 +18,14 @@
 }
 
 :root {
-    --color-bg: #f7c4f5;
-    --color-bg-variant: #471b76;
-    --color-primary:#9c82ff;
-    --color-primary-variant: #F88FCF;
+    --color-bg: #8855ff;
+    --color-bg-variant: #8855ff;
+    --color-primary:#FFA8DE;
+    --color-primary-variant: #B2FFC8;
     --color-purp: #2b2b2b;
-    --color-lurp: #aa64f6;
-    --color-light: #ede1f9;
-    --color-neon: #50EFBD;
+    --color-lurp: #F88FCF;
+    --color-light: #ddd8ff;
+    --color-neon: #9C82FF;
 
     --transition: all 400ms ease;
 

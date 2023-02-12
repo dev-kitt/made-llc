@@ -4,17 +4,12 @@ import kittMADE from '../../assets/kitt-made.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdDeveloperMode} from 'react-icons/md'
 import {FaRobot} from 'react-icons/fa'
-import banner from '../../assets/made_gif.gif'
 
 const About = () => {
   return (
     <section id='about'>
-      <div className='about__banner'>
-          <img src={banner} alt="about-nft" />
-      </div>
-
-      <h5>[ my cargo ]</h5>
-      <h2>About Me</h2>
+      <h2>Made, LLC</h2>
+      <h5>[ Hello World ]</h5>
       <br></br>
       <br></br>
 
@@ -29,19 +24,19 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <BsFillAwardFill className='about__icon'/>
-              <h5>EXPERT</h5>
-              <small>Automation Engineering</small>
+              <h5>ARCHITECTURE</h5>
+              <small>Scalable Frameworks</small>
             </article>
 
             <article className='about__card'>
               <MdDeveloperMode className='about__icon'/>
-              <h5>TESTING</h5>
+              <h5>DEVELOPMENT</h5>
               <small>Full Stack E2E</small>
             </article>
 
             <article className='about__card'>
               <FaRobot className='about__icon'/>
-              <h5>KITT:</h5>
+              <h5>AUTOMATION</h5>
               <small>Keep IT Testing</small>
             </article>
 
@@ -51,26 +46,21 @@ const About = () => {
           </div>
 
           <p>
-          Hey I'm Keith, but here you can call me Kitt - Keith Is Testing Things, also I Keep IT Testing, or Keith Is Tasting Tacos, but mainly because of <a href="https://youtu.be/7qQ2dvSvT_M" >this</a>.  
-          As a former Army Parachute Rigger, having been selected for the Airborne Special Operations Parachute Test Facility, and as a current Test Automation Engineer and Quality Assurance Expert 
-          working in cutting edge technologies, I have spent the last 13 years specializing in the art of testing.
+          We are a consortium of IT professional moonlighting developers who enjoy making cool things with computers. As curious nighttime creatures we most commonly identify as "Kits", known in the animal kingdom as young or undersized fur-bearing animals 
+          such as squirrels, beavers, rabbits, foxes, or rabbits. We thrive in challenging environments, strive to exceeded expectations, and defy conventions while operating in new, advanced, and emerging technologies.  
           <br></br>
           <br></br>
-          In a previous life I was even an aspiring stand-up comedian (<a href="https://youtu.be/cex2SMMODbQ" >proof</a>) ... although judging by this website I may think I still am. Although I have taken a different path than most, 
-          one far less traveled, what I have come to realize over the course of my long and weathered journey, is just how uniquely and unconventionally valuable my journey has been. 
+          Our "Kitt's" come in many forms, specializing in software development, test automation, data analytics, APIs, cloud architecture, computer vision, advanced AI/AR/VR/Gaming platforms, models, languages and tools. Simply put - we Keep IT Technical, we Keep IT Testing,
+          and we mostly certainly Keep IT Thriving. Through the course of our long and weathered journeys, we have learned just how uniquely and unconventionally valuable our paths have been. 
           <br></br>
           <br></br>
-          Currently I spend my days automating front-end, back-end, and API tests for one of crypto's largest fintech platforms. By night, I'm brushing up on new technologies in Machine Learning, AI, AR/VR, and Computer Vision; using Python, Flutter/Dart, 
-          Node/React, Angular - and of course, testing with Cypress, WebDriver, Python3, and AndroidStudio. Also I feed my kids and wife in between. 
+          By day, you can find most of us building the technologies and tools that power industries and enterprise companies across the globe. At night, we emerge from our corporate dens to play, to learn, to create, and to ironically traverse the infinite rabbit holes of technology.
+          We may not have the fancy degrees, the investors, the corporate lawyers, the quantum computers, lab equipment, goverment grants or even an HR department ... but we most certainly have the one thing which separates us from the rest of the fur-bearing animals in the world - we don't know any better.   
           <br></br>
           <br></br>
-          Outside of moonlighting as a Developer, Designer and Dad ... I can also say I have skydived with the Golden Knights, driven a submarine, am a 2x 2022 Smartbear Quarterly Community Leader, 2022 Smartbear Community Hero Nominee (TBA), 2018 Google Nesties Award Winner 😉, 
-          Auburn University Football walk-on (and off), HS Wrestling All-American - 2x State Champion and 1x Runner-Up, 2x HS Football State Champion, and 1996 Harriet the Spy Nickelodeon Contest Runner-Up. OK that last one is a reach, but this is my website so I can brag on myself how I want.
-          <br></br>
-          <br></br>
-          <small>**This is my personal portfolio website, developed by me, under my company Made, LLC. Please do not and use any of this content or my personal information maliciously. There is a reason my face is covered by a unicorn head and why I don't have any social media accounts,
-            and I sure as heck don't own one of those Roomba vacuums - they're just expensive and we bought Omaha Steak instead.  All's I'm sayin' is, we are all living on a rock flying through space doing the best we can with what we have - Don't be an @$$!
-          </small>   
+          <small>
+          ** Made, LLC is currently operating as a stealth startup - meaning the visibility of our products and services is limited within the scope of Pre-Alpha development.
+          </small>
           </p>
 
           <a href='../../assets/kitt-cover.docx' className='btn btn-primary' download>Learn More</a>
