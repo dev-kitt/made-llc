@@ -19,14 +19,14 @@
 
 :root {
     --color-black: #212121;
-    --color-bg: #8855ff;
-    --color-bg-variant: #8855ff;
+    --color-bg: #9C82FF;
+    --color-bg-variant: #9C82FF;
     --color-primary:#FFA8DE;
     --color-primary-variant: #B2FFC8;
     --color-purp: #2b2b2b;
-    --color-lurp: #F88FCF;
+    --color-lurp: #faafa5;
     --color-light: #ddd8ff;
-    --color-neon: #9C82FF;
+    --color-neon: #8855ff;
 
     --transition: all 400ms ease;
 
@@ -77,7 +77,7 @@ section {
 section > h2, 
 section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-lurp);
 }
 
 section > h2 {

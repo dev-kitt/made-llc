@@ -25,13 +25,13 @@ const About = () => {
             <article className='about__card'>
               <BsFillAwardFill className='about__icon'/>
               <h5>ARCHITECTURE</h5>
-              <small>Scalable Frameworks</small>
+              <small>Keep IT Tethered</small>
             </article>
 
             <article className='about__card'>
               <MdDeveloperMode className='about__icon'/>
               <h5>DEVELOPMENT</h5>
-              <small>Full Stack E2E</small>
+              <small>Keep IT Threaded</small>
             </article>
 
             <article className='about__card'>
@@ -40,21 +40,36 @@ const About = () => {
               <small>Keep IT Testing</small>
             </article>
 
+            <article className='about__card'>
+              <FaRobot className='about__icon'/>
+              <h5>SECURITY</h5>
+              <small>Keep IT Tokenized</small>
+            </article>
+
+            <article className='about__card'>
+              <FaRobot className='about__icon'/>
+              <h5>REPORTING</h5>
+              <small>Keep IT Transparent</small>
+            </article>
+
             <article className='about__cardx'>
 
             </article>
           </div>
 
           <p>
-          We are a consortium of IT professional moonlighting developers who enjoy making cool things with computers. As curious nighttime creatures we most commonly identify as "Kits", known in the animal kingdom as young or undersized fur-bearing animals 
+          We are a consortium of daytime professionals, moonlighting the world of Internet Technology to build cool and useful things with computers. As curious nighttime creatures we most commonly identify as "Kits", known in the animal kingdom as young or undersized fur-bearing animals 
           such as squirrels, beavers, rabbits, foxes, or rabbits. We thrive in challenging environments, strive to exceeded expectations, and defy conventions while operating in new, advanced, and emerging technologies.  
           <br></br>
           <br></br>
-          Our "Kitt's" come in many forms, specializing in software development, test automation, data analytics, APIs, cloud architecture, computer vision, advanced AI/AR/VR/Gaming platforms, models, languages and tools. Simply put - we Keep IT Technical, we Keep IT Testing,
-          and we mostly certainly Keep IT Thriving. Through the course of our long and weathered journeys, we have learned just how uniquely and unconventionally valuable our paths have been. 
+          Our "Kitt's" come in many forms, specializing in software development, test automation, data analytics, APIs, cloud architecture, computer vision, advanced AI/AR/VR/Gaming platforms, models, languages and tooling. Simply put - we Keep IT Thriving. 
+          Through the course of our long and weathered journeys, we have learned just how uniquely and unconventionally valuable our paths have been. 
           <br></br>
           <br></br>
-          By day, you can find most of us building the technologies and tools that power industries and enterprise companies across the globe. At night, we emerge from our corporate dens to play, to learn, to create, and to ironically traverse the infinite rabbit holes of technology.
+          By day, you can find most of us building the front-to-backend systems that power industries and enterprise companies around the country. At night, we emerge from our corporate dens to play, to learn, to create, and to ironically traverse the infinite rabbit holes of technology. 
+          As pathfinders, and diggers, we journey through unchareted territories to discovery new worlds of possibilities to unlock our human potential. 
+          <br></br>
+          <br></br>
           We may not have the fancy degrees, the investors, the corporate lawyers, the quantum computers, lab equipment, goverment grants or even an HR department ... but we most certainly have the one thing which separates us from the rest of the fur-bearing animals in the world - we don't know any better.   
           <br></br>
           <br></br>

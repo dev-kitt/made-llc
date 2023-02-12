@@ -15,7 +15,7 @@
     height: 50%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: var(--color-primary);
+    background: var(--color-lurp);
     display: flex;
     justify-content: center;
     align-items: center;

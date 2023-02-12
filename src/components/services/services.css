@@ -6,7 +6,7 @@
 }
 
 .service {
-    background: var(--color-neon);
+    background: var(--color-lurp);
     border-radius: 3rem;
     height: fit-content;
     transition: var(--transition);
@@ -39,7 +39,8 @@
 
 .service__list li > p {
     gap: 1rem;
-    margin-bottom: 0.8rem
+    margin-bottom: 0.8rem;
+    color: var(--color-bg);
 }
 
 .service__list-icon {
