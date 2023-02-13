@@ -22,7 +22,7 @@ const MediumText = styled.span`
 const SmallText = styled.span`
   text-align: left;
   font-size: 13px;
-  color: var(--color-lurp);
+  color: var(--color-primary);
   font-weight: 900;
   text-transform: uppercase;
 `
@@ -36,7 +36,7 @@ const SpacedHorizontalContainer = styled.div`
 
 const BuyButton = styled.a`
   padding: 10px 16px;
-  background-color: var(--color-neon);
+  background-color: var(--color-bg);
   color: #000;
   text-transform: uppercase;
   font-size: 16px;
@@ -70,15 +70,15 @@ const MadeLogo = styled.div`
 export function CardDetails(props) {
   return (
     <DetailsContainer>
-      <SmallText>Kitt: Keep IT Thriving</SmallText>
+      <SmallText>Made, LLC</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>Test Automation Expert</MediumText>
-        <MediumText>₰999</MediumText>
+        <MediumText>A DevOps Collective</MediumText>
+        <MediumText>🖥️🐿️</MediumText>
       </SpacedHorizontalContainer>
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
-        <SmallText>YOUR NEXT ASSET</SmallText>
-        <BuyButton href='../../assets/kitt-resume.docx' download>BUY</BuyButton>
+        <SmallText>Keep [IT] Thriving</SmallText>
+        <BuyButton href='../../assets/kitt-resume.docx' >₰_KITT</BuyButton>
       </SpacedHorizontalContainer>
       <MadeLogo>
         <img src={madeTM} alt="nft" />

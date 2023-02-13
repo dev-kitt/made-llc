@@ -7,7 +7,6 @@ import About from './components/about/About'
 import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Team from './components/team/Team'
-import Tacos from './components/tacos/Tacos'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import { useContext } from "react"
@@ -31,7 +30,6 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <Tacos />
       <Services />
       <Team />
       <Contact />

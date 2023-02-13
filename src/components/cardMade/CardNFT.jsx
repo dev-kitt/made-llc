@@ -43,7 +43,7 @@ const Circle = styled.div`
   top: -4.2em;
   right: -10em;
   z-index: 5;
-  background-color: var(--color-neon);
+  background-color: var(--color-lurp);
   border-radius: 50%;
 `
 

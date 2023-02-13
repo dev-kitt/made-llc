@@ -6,8 +6,8 @@
 }
 
 .service {
-    background: var(--color-lurp);
-    border-radius: 3rem;
+    background: var(--color-primary);
+    border-radius: 2rem;
     height: fit-content;
     transition: var(--transition);
 }
@@ -19,14 +19,14 @@
 }
 
 .service__head {
-    background: var(--color-bg);
+    background: var(--color-lurp);
     padding: 2rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service__head h3 {
-    color: var(--color-light);
+    color: var(--color-bg);
     font-size: 1.2rem;
     text-align: center;
 }
@@ -52,8 +52,8 @@
     font-size: 0.8rem;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
-@media screen and (max-width: 1200px) {
+/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
+@media screen and (max-width: 1324px) { 
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.5rem;
@@ -63,21 +63,16 @@
     }
 }
 
-/* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 
-@media screen and (max-width: 1224px) { 
-
-}
-
 /* ========== MEDIA QUERIES (LARGE SCREEN) ========== */
-@media screen and (max-width: 824px) {
-
+@media screen and (max-width: 924px) {
+    .services__container {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
-    .services__container {
-        grid-template-columns: 1fr;
-    }
+
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */

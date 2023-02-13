@@ -24,12 +24,13 @@ nav a {
 }
 
 nav a:hover {
-    background: var(--color-black);
+    background: var(--color-primary-variant);
+    color: var(--color-bg);
 }
 
 nav a.active {
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-purp);
 }
 
 /* ========== MEDIA QUERIES (X-LARGE SCREEN) ========== */ 

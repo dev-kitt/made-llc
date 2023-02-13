@@ -1,13 +1,22 @@
 import React from 'react'
 import './projects.css'
+import IMG0 from '../../assets/projects/made_llc.png'
 import IMG1 from '../../assets/projects/kitt_one.png'
 import IMG2 from '../../assets/projects/kitt_plus.png'
 import IMG3 from '../../assets/projects/kitt_pro.png'
+import IMG4 from '../../assets/projects/kitt_games.png'
 import { motion } from "framer-motion";
-
+           
 // DO NOT USE IMAGES IN PROD
 const data = [
 
+  {
+    id: 0,
+    image: IMG0,
+    title: '.LLC - Made This App',
+    openSee: '',
+    more: 'https://github.com/standard-made/made-llc'
+  },
   {
     id: 1,
     image: IMG1,
@@ -18,17 +27,24 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: '.PLUS - Flutter OpenAI GPT Chatbot',
+    title: '.PLUS - ChatGPT + DALL-E Chat App',
     openSee: 'https://kitt.plus',
     more: 'https://github.com/standard-made/kitt-plus'
   },
   {
     id: 3,
     image: IMG3,
-    title: '.PRO - Flutter Productivity Test App',
+    title: '.PRO - Personal Productivity App',
     openSee: 'http://kitt.pro/',
     more: 'https://github.com/standard-made/kitt-pro'
   },
+  {
+    id: 4,
+    image: IMG4,
+    title: '.GAMES - Unity & Unreal Gaming App',
+    openSee: 'http://kitt.games/',
+    more: 'https://github.com/standard-made/kitt-games'
+  }
 ]
 
 const Projects = () => {

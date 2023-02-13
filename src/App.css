@@ -20,13 +20,15 @@
 :root {
     --color-black: #212121;
     --color-bg: #9C82FF;
-    --color-bg-variant: #9C82FF;
+    --color-bg-variant: #5525C8;
     --color-primary:#FFA8DE;
     --color-primary-variant: #B2FFC8;
     --color-purp: #2b2b2b;
     --color-lurp: #faafa5;
     --color-light: #ddd8ff;
     --color-neon: #8855ff;
+    --color-yellow: #FFED8E;
+    --color-blue: #8BD3FD;
 
     --transition: all 400ms ease;
 
