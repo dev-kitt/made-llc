@@ -67,7 +67,7 @@
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
-    .projects__container {
+    .container.projects__container {
         margin-top: -12rem;
         margin-bottom: -10rem;
         transform: scale(0.85);
@@ -76,9 +76,9 @@
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    .projects__container {
-        margin-top: -5rem;
+    .container.projects__container {
+        width: 100%;
+        margin-top: -10rem;
         margin-bottom: -5rem;
-
     }
 }

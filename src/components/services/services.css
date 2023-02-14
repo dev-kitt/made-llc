@@ -1,4 +1,5 @@
 .services__container {
+    width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -72,13 +73,19 @@
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 @media screen and (max-width: 624px) {
-
+    .container.services__container {
+        transform: scale(0.8);
+        margin-top: -10rem;
+        margin-bottom: -3rem;
+    }
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 @media screen and (max-width: 424px) {
-    .services__container {
-        width: 90%;
-        padding-bottom: 3rem;
+    .container.services__container {
+        width: 100%;
+    }
+    #services {
+        margin-left: -1rem;
     }
 }

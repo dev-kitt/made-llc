@@ -135,7 +135,7 @@
 }
 
 /* ========== MEDIA QUERIES (SMALL SCREEN) ========== */
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 500px) {
     #about {
         width: 100%;
         margin-top: -180px;
@@ -151,7 +151,4 @@
         grid-template-columns: 1fr;
         transform: scale(90%);
     }
-    /* .about__content > p {
-        display: none;
-    } */
 }
