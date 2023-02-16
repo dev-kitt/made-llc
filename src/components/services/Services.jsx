@@ -107,7 +107,7 @@ const Service = () => {
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
-              <p>ContinuiousIntegration/SAST/DAST</p>
+              <p>CI/CD/SAST/DAST</p>
             </li>
             <li>
               <MdHealthAndSafety className='service__list-icon' />
