@@ -1,10 +1,11 @@
 import React from 'react'
 import './projects.css'
 import IMG0 from '../../assets/projects/made_llc.png'
-import IMG1 from '../../assets/projects/kitt_one.png'
-import IMG2 from '../../assets/projects/kitt_plus.png'
-import IMG3 from '../../assets/projects/kitt_pro.png'
-import IMG4 from '../../assets/projects/kitt_games.png'
+import IMG1 from '../../assets/projects/kitt_hub.png'
+import IMG2 from '../../assets/projects/kitt_one.png'
+import IMG3 from '../../assets/projects/kitt_plus.png'
+import IMG4 from '../../assets/projects/kitt_pro.png'
+import IMG5 from '../../assets/projects/kitt_games.png'
 import { motion } from "framer-motion";
            
 // DO NOT USE IMAGES IN PROD
@@ -13,35 +14,42 @@ const data = [
   {
     id: 0,
     image: IMG0,
-    title: '.LLC - Made This App',
+    title: '.LLC > Made This App',
     openSee: '',
     more: 'https://github.com/standard-made/made-llc'
   },
   {
     id: 1,
     image: IMG1,
-    title: '.ONE - Web3 Solidity Test App',
-    openSee: 'https://kitt.one',
-    more: 'https://github.com/standard-made/kitt-one'
+    title: 'KittHub.COM > GitHub',
+    openSee: 'https://kitthub.com',
+    more: 'https://github.com/standard-made/kitt-hub'
   },
   {
     id: 2,
     image: IMG2,
-    title: '.PLUS - ChatGPT + DALL-E Chat App',
-    openSee: 'https://kitt.plus',
-    more: 'https://github.com/standard-made/kitt-plus'
+    title: '.ONE > Web3 Solidity Test App',
+    openSee: 'https://kitt.one',
+    more: 'https://github.com/standard-made/kitt-one'
   },
   {
     id: 3,
     image: IMG3,
-    title: '.PRO - Personal Productivity App',
-    openSee: 'http://kitt.pro/',
-    more: 'https://github.com/standard-made/kitt-pro'
+    title: '.PLUS > ChatGPT + DALL-E Chat App',
+    openSee: 'https://kitt.plus',
+    more: 'https://github.com/standard-made/kitt-plus'
   },
   {
     id: 4,
     image: IMG4,
-    title: '.GAMES - Unity & Unreal Gaming App',
+    title: '.PRO > Personal Productivity App',
+    openSee: 'http://kitt.pro/',
+    more: 'https://github.com/standard-made/kitt-pro'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: '.GAMES > Unity & Unreal Gaming App',
     openSee: 'http://kitt.games/',
     more: 'https://github.com/standard-made/kitt-games'
   }
