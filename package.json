@@ -1,7 +1,7 @@
 {
-  "name": "made",
+  "name": "kitt",
   "version": "1.0.2",
-  "license": "SEE LICENSE IN STANDARDmade, LLC",
+  "license": "SEE LICENSE IN Kitt, LLC",
   "dependencies": {
     "@chakra-ui/react": "^2.4.3",
     "@emailjs/browser": "^3.10.0",

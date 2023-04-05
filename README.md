@@ -1,10 +1,10 @@
 **<h1>Made</h1>**
-![Made-logo](/src/assets/madellc_readme.png "Made, LLC")
+![Made-logo](/src/assets/madellc_readme.png "Kitt, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[Made, LLC](https://made.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
+[Kitt, LLC](https://made.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
 - Portfolio & Playground
   - About Me
   - Automation Stuff
