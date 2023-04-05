@@ -11,7 +11,7 @@ import {TbExchange} from 'react-icons/tb'
 const About = () => {
   return (
     <section id='about'>
-      <h2>Made, LLC</h2>
+      <h2>Kitt, LLC</h2>
       <h5>[ Hello World ]</h5>
       <br></br>
       <br></br>
@@ -83,7 +83,7 @@ const About = () => {
           <br></br>
           <br></br>
           <small>
-          ** Made, LLC is currently operating as a stealth startup - meaning the visibility of our products and services is limited within the scope of Pre-Alpha development.
+          ** Kitt, LLC is currently operating as a stealth startup - meaning the visibility of our products and services is limited within the scope of Pre-Alpha development.
           </small>
           </p>
 
