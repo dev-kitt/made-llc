@@ -32,14 +32,14 @@ const Contact = () => {
           <artice className="contact__option">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>kitt@made.llc</h5>
-            <a href="mailto:kitt@made.llc" rel="noreferrer" target="_blank">Send a message</a>
+            <h5>dev@kitt.llc</h5>
+            <a href="mailto:dev@kitt.llc" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
           <artice className="contact__option">
             <BsGithub className='contact__option-icon' />
             <h4>Github</h4>
-            <h5>@standard-made</h5>
-            <a href="https://github.com/standard-made/devops" rel="noreferrer" target="_blank">ReadMe.md</a>
+            <h5>@kitt-llc</h5>
+            <a href="https://github.com/kitt-llc" rel="noreferrer" target="_blank">ReadMe.md</a>
           </artice>
           <artice className="contact__option">
             <FiPhoneCall className='contact__option-icon' />

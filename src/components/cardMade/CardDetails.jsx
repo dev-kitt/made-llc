@@ -70,14 +70,14 @@ const MadeLogo = styled.div`
 export function CardDetails(props) {
   return (
     <DetailsContainer>
-      <SmallText>Made, LLC</SmallText>
+      <SmallText>Kitt, LLC</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>A DevOps Collective</MediumText>
+        <MediumText>Software Development</MediumText>
         <MediumText>🖥️🐿️</MediumText>
       </SpacedHorizontalContainer>
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
-        <SmallText>Keep [IT] Thriving</SmallText>
+        <SmallText>Keep [IT] Together</SmallText>
         <BuyButton href='../../assets/kitt-resume.docx' >₰_KITT</BuyButton>
       </SpacedHorizontalContainer>
       <MadeLogo>

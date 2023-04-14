@@ -1,10 +1,10 @@
 **<h1>Made</h1>**
-![Made-logo](/src/assets/madellc_readme.png "Kitt, LLC")
+![Made-logo](/src/assets/kittllc_readme.png "Kitt, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[Kitt, LLC](https://made.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
+[Kitt, LLC](https://kitt.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
 - Portfolio & Playground
   - About Me
   - Automation Stuff
@@ -16,7 +16,7 @@
 
 
 ## <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
-If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it to: **kitt@made.llc** 
+If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it to: **dev@kitt.llc** 
 
 
 
@@ -30,7 +30,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 
 ## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
-Installation guide for deploying **| Made |** by Kitt. Not really, I'm just hungry for :taco::taco::taco:'s!
+Installation guide for deploying **| Kitt |**. Not really, I'm just hungry for :taco::taco::taco:'s!
 
 
 ``` js
