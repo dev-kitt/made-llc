@@ -1,7 +1,7 @@
-import React from "react"
 import styled from "styled-components"
 import { CardSizer } from "../cardSizer"
 import madeTM from "../../assets/made.png"
+import { useState, React } from "react"
 
 const DetailsContainer = styled.div`
   width: 100%;
@@ -35,11 +35,15 @@ const SpacedHorizontalContainer = styled.div`
 `
 
 const BuyButton = styled.a`
-  padding: 10px 16px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
   background-color: var(--color-bg);
-  color: #000;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   border: 3px solid transparent;
   outline: none;
@@ -68,20 +72,20 @@ const MadeLogo = styled.div`
 `
 
 export function CardDetails(props) {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <DetailsContainer>
       <SmallText>Kitt, LLC</SmallText>
       <SpacedHorizontalContainer>
         <MediumText>Software Development</MediumText>
-        <MediumText>🖥️🐿️</MediumText>
+        <MediumText>🖥💻📱</MediumText>
       </SpacedHorizontalContainer>
       <CardSizer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
-        <SmallText>Keep [IT] Together</SmallText>
-        <BuyButton href='../../assets/kitt-resume.docx' >₰_KITT</BuyButton>
+        <BuyButton href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>Keep [IT] Together</BuyButton>
       </SpacedHorizontalContainer>
       <MadeLogo>
-        <img src={madeTM} alt="nft" />
+        <MediumText>🍑🍑🐿️</MediumText>
       </MadeLogo>
     </DetailsContainer>
   )

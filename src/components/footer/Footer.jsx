@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import pros from '../../assets/made_squirrel.png'
+import pros from '../../assets/kitt-pc.png'
 import { Flex, Image} from '@chakra-ui/react'
 
 const Footer = () => {

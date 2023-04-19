@@ -31,7 +31,7 @@ const Team = () => {
   return (
     <section id='team'>
       <h2>Team</h2>
-      <h5>[ Kitt Krew ]</h5>
+      <h5>[ Kitt Crew ]</h5>
       <br></br>
       <br></br>
 
