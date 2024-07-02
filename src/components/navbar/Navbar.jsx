@@ -16,7 +16,7 @@ const navbar = () => {
             {/* right */}
             <div className="n-right">
                 <Text padding={8}><p>by</p></Text>
-                <Link href="https://kitt.one" rel="noreferrer" target='_blank'>
+                <Link href="/" rel="noreferrer" target='_blank'>
                     <Image src={Kitt} width="80px" height="80px" />
                 </Link>
             </div>

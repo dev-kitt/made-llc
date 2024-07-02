@@ -6,8 +6,9 @@ import IMG2 from '../../assets/projects/kitt_one.png'
 import IMG3 from '../../assets/projects/kitt_plus.png'
 import IMG4 from '../../assets/projects/kitt_pro.png'
 import IMG5 from '../../assets/projects/kitt_games.png'
-import IMG6 from '../../assets/projects/kitt_tools.png'
-import IMG7 from '../../assets/projects/kitt_services.png'
+import IMG6 from '../../assets/projects/kitt_ether.png'
+import IMG7 from '../../assets/projects/kitt_earth.png'
+import IMG8 from '../../assets/projects/kitt_ember.png'
 import { motion } from "framer-motion";
            
 // DO NOT USE IMAGES IN PROD
@@ -31,43 +32,50 @@ const data = [
     id: 2,
     image: IMG2,
     title: '.ONE > Web3 Solidity Test App',
-    openSee: 'https://kitt.one',
+    openSee: 'https://github.com/dev-kitt/kitt-one',
     more: 'https://github.com/dev-kitt/kitt-one'
   },
   {
     id: 3,
     image: IMG3,
-    title: '.PLUS > ChatGPT + DALL-E Chat App',
-    openSee: 'https://kitt.plus',
+    title: '.PLUS > Google AI + Gemini Chat App',
+    openSee: 'https://github.com/dev-kitt/kitt-plus',
     more: 'https://github.com/dev-kitt/kitt-plus'
   },
   {
     id: 4,
     image: IMG4,
     title: '.PRO > Personal Productivity App',
-    openSee: 'http://kitt.pro/',
+    openSee: 'https://github.com/dev-kitt/kitt-pro',
     more: 'https://github.com/dev-kitt/kitt-pro'
   },
   {
     id: 5,
     image: IMG5,
     title: '.GAMES > Unity & Unreal Gaming App',
-    openSee: 'http://kitt.games/',
+    openSee: 'https://scratch.mit.edu/projects/385458190/',
     more: 'https://github.com/dev-kitt/kitt-games'
   },
   {
     id: 6,
     image: IMG6,
-    title: '.TOOLS > AI Dev Tools [coming soon]',
-    openSee: '',
-    more: ''
+    title: '.ETHER > Dualing AI Chatbots',
+    openSee: 'https://github.com/kitt-llc/ether',
+    more: 'https://github.com/kitt-llc/ether'
   },
   {
     id: 7,
     image: IMG7,
-    title: '.SERVICES > AI Dev Services [coming soon]',
-    openSee: '',
-    more: ''
+    title: '.EARTH > Earth Data + Dualing AI Chatbots',
+    openSee: 'https://github.com/kitt-llc/earth',
+    more: 'https://github.com/kitt-llc/earth'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: '.EMBER > Passion Project [coming soon]',
+    openSee: 'https://github.com/kitt-llc/ember',
+    more: 'https://github.com/kitt-llc/ember'
   }
 ]
 

@@ -44,7 +44,7 @@ const Contact = () => {
           <artice className="contact__option">
             <FiPhoneCall className='contact__option-icon' />
             <h4>Mobile</h4>
-            <h5>+404-EAT-TACO</h5>
+            <h5>+404-DONT-CALL</h5>
             <a href="https://api.whatsapp.com/send?phone+1404123456" rel="noreferrer" target="_blank">Send a message</a>
           </artice>
         </div>

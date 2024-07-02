@@ -1,16 +1,17 @@
-**<h1>Made</h1>**
-![Made-logo](/src/assets/kittllc_readme.png "Kitt, LLC")
+**<h1>Kitt</h1>**
+![Kitt-logo](/src/assets/kittllc_readme.png "Kitt, LLC")
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-[Kitt, LLC](https://kitt.llc) | `DevOps Engineering + Test Automation + Quality Assurance`
+[Kitt, LLC](https://kitt.llc) | `DevOps Engineering + Test Automation + Quality Assurance + Software Development`
 - Portfolio & Playground
   - About Me
   - Automation Stuff
   - Web3 Stuff
   - Flutter Stuff
   - AR/VR Stuff
+  - AI Stuff
   - DevOps Stuff
   - :taco: Stuff
 

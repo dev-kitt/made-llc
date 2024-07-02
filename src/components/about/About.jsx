@@ -11,8 +11,8 @@ import {TbExchange} from 'react-icons/tb'
 const About = () => {
   return (
     <section id='about'>
-      <h2>Kitt, LLC</h2>
-      <h5>[ Hello World ]</h5>
+      <h2>Keith "Kitt" Hudson</h2>
+      <h5>[ About Me ]</h5>
       <br></br>
       <br></br>
 
@@ -67,27 +67,24 @@ const About = () => {
           </div>
 
           <p>
-          We are a collection of daytime professionals, moonlighting the world of Internet Technology to build cool and useful things with computers. As curious nighttime creatures we most commonly identify as "Kits", known in the animal kingdom as young or undersized fur-bearing animals 
-          such as squirrels, beavers, rabbits, foxes, or rabbits. We thrive in challenging environments, strive to exceeded expectations, and defy conventions while operating in new, advanced, and emerging technologies.  
+          As a current Lead Software QA Engineer, Test Automation expert, and former Army Parachute Rigger at the Airborne Special Operations Parachute Test Facility, I have spent the past 13 years specializing in the art of Quality Assurance. During my time in this field, 
+          I have developed a strong understanding of development and test methodologies and have become proficient in a variety of open-source and Enterprise automation tools, frameworks, and methodologies.  
           <br></br>
           <br></br>
-          Our "Kitt's" come in many forms, specializing in software development, test automation, data analytics, APIs, cloud architecture, AR/VR & computer vision, advanced AI, gaming platforms, models, languages and tooling. Simply put - we Keep IT Thriving. 
-          Through the course of our long and weathered journeys, we have learned just how unconventionally valuable our paths have been and, when merged, allow us to create uniquely thoughtful products. 
+          I am highly organized and detail-oriented, and I have a proven track record of successfully designing, developing and executing test plans within CI/CD workflows and in various testing arenas - Desktop, Web, Mobile, API, Database, Performance, and Hardware/Firmware. 
+          Primarily automating in JavaScript/SQL for the past 7 years, I also have experience using Java, Python, C#, VB, Groovy, Bash, PowerShell, Gherkin, NoSQL, HTML/CSS, XML/JSON/YAML and TypeScript - adapting to the tooling and language preferences of the project as needed. 
           <br></br>
           <br></br>
-          By day, you can find most of us building the front-to-backend systems that power industries and enterprise companies around the country. At night, we emerge from our corporate dens to play, to learn, to create, and to ironically traverse the infinite rabbit holes of technology. 
-          As pathfinders, and diggers, we journey through unchareted territories to discovery new worlds of possibilities to unlock our human potential. 
-          <br></br>
-          <br></br>
-          We may not have the fancy degrees, the investors, the corporate lawyers, or even an HR department ... but we most certainly have one thing to our advantage - we don't know any better.   
+          Although I have taken a different path than most, one far less traveled, I have found the culmination of my life's experiences have given me a unique perspective, allowing me to find creative solutions to complex issues. 
+          I am excited to bring my skills and experience to your team and am confident that I can make a positive contribution. I look forward to discussing my qualifications in more detail and appreciate your time.   
           <br></br>
           <br></br>
           <small>
-          ** Kitt, LLC is currently operating as a stealth startup - meaning the visibility of our products and services is limited within the scope of Pre-Alpha development.
+          ** Kitt, LLC is currently serving as a personal website, CV, and holding company for all design and development assets. All content is privately owned, protected, and may not be used without explicit consent.
           </small>
           </p>
 
-          <a href='../../assets/kitt-cover.docx' className='btn btn-primary' >Learn More</a>
+          <a href='../../assets/kitt-resume.pdf' className='btn btn-primary' >Learn More</a>
         </div>
       </div>
     </section>

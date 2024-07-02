@@ -23,7 +23,7 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>JavaScript/Java/Python/C#/C++/Dart</p>
+              <p>TS/JS/Java/Python/C#/C++/Dart</p>
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
@@ -43,7 +43,7 @@ const Service = () => {
             </li>
             <li>
               <AiFillStar className='service__list-icon' />
-              <p>ChatGPT/Unity/UnrealEngine/DALL-E</p>
+              <p>Gemini/ChatGPT/Unity/Unreal/DALL-E</p>
             </li>
           </ul>
         </article>

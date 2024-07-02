@@ -11,7 +11,7 @@ const Footer = () => {
               <Image src={pros} boxSize="8%" margin="5px" />
         </Flex>
         <div className="footer__copyright">
-          <small>&copy; Kitt, LLC [2019-2023]</small>
+          <small>&copy; Kitt, LLC [2019-2025]</small>
         </div>
       </div>
     </footer>
